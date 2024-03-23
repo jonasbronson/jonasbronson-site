@@ -2,6 +2,22 @@
   background-color: #181717;
 }
 
-.test{
-  background-color: red;
+.header{
+  background-color: #343434;
+  padding: .5em;
+  border: #343434;
+  border-radius: 10px;
+  display: flex;
+}
+
+.headerLogo{
+  width: 5em;
+}
+
+.button{
+  padding: 5em;
+}
+
+.button:hover{
+  cursor: pointer;
 }
