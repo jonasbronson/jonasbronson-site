@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { animated } from '@react-spring/web'
 import ProfileNature from "../assets/profileNature.jpg";
 
 export default function Home(){
@@ -20,7 +21,7 @@ export default function Home(){
                         <span>and so on...</span></h3>
                 </div>
                 <div style={{marginBottom: "15%"}}>
-                    <h2 className="homePortfolio">See my portfolios</h2>
+                    <h2 className="homeHeader">My Portfolios</h2>
                     <div style={{display: "flex", justifyContent: "center"}}>
                         <button type="button" className="homeButton" style={{marginRight: "1em"}}><Link to="/Code">Coding</Link></button>
                         <button type="button" className="homeButton"><Link to="/Video">Video</Link></button>
@@ -60,6 +61,7 @@ export default function Home(){
                     
                 </div> 
             </div>
+            
         </>
     );
 }
