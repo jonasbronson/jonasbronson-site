@@ -1,4 +1,5 @@
-import React from "react"; 
+import React from "react";
+import Accolades from "../assets/video/accolades.png"
 
 export default function Video(){
     return(
@@ -13,11 +14,20 @@ export default function Video(){
                     <div style={{display: "flex"}}>
                         <div>
                             <h3 className="genH3 videoTwoTime"><span>Two Time</span> National Award Winner</h3>
-                            <p className="genP">Two national awards, one school year. Awarded by the Journalism Education Association (JEA), 
+                            <p className="genP videoAccoladesText">Two national awards, one school year. Awarded by the Journalism Education Association (JEA), 
                                 these awards recognised excellence in videography and editing an already filmed video with 
                                 specific requirements and time constraints. These were given out during the awards ceremony.
                             </p>
+                            <h4 className="genH4 videoAccoladesHeaders">Videography Superior Award</h4>
+                            <p className="genP videoAccoladesText">Videography is a category where the objective is to make a
+                            video to tell a story using only video and natural sound. <br /><br /> Award given at JEA St. Louis 
+                            Fall 2022 Convention. <br /><br /> Watch the video <a href="https://youtu.be/6Jm8AkyRKtM" className="videoAccoladesLink">here</a>.</p>
+                            <h4 className="genH4 videoAccoladesHeaders">Video Package Editing Superior Award</h4>
+                            <p className="genP videoAccoladesText">Video package editing has an editor edit a video with specific 
+                            requirements, a folder of footage, and time constraints. <br /><br />Award given at JEA San Francisco 
+                            Spring 2023 Convention. <br /><br />Watch the video <a href="https://youtu.be/qgE-RPuwqjo" className="videoAccoladesLink">here</a>.</p>
                         </div>
+                        <img src={Accolades} className="videoAccoladesPic"/>
                         
 
                     </div>
