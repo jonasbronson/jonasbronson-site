@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { animated } from '@react-spring/web'
 import ProfileNature from "../assets/profileNature.jpg";
+import CodePic from "../assets/code.png";
 
 export default function Home(){
     return(
@@ -21,12 +22,11 @@ export default function Home(){
                         <span>and so on...</span></h3>
                 </div>
                 <div style={{marginBottom: "15%"}}>
-                    <h2 className="homeHeader">My Portfolios</h2>
+                    <h2 className="homeHeader" style={{marginBottom: "1em"}}>My Portfolios</h2>
                     <div style={{display: "flex", justifyContent: "center"}}>
-                        <button type="button" className="homeButton" style={{marginRight: "1em"}}><Link to="/Code">Coding</Link></button>
+                        <button type="button" className="homeButton" style={{marginRight: "3em"}}><Link to="/Code">Coding</Link></button>
                         <button type="button" className="homeButton"><Link to="/Video">Video</Link></button>
                     </div>
-                    <h2 className="homePortfolio">... or scroll to find out more about me</h2>
                 </div>
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="homeHeader">About Me</h2>

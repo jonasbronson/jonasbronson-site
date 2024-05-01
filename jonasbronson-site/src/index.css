@@ -122,7 +122,7 @@
 }
 
 .homeButton{
-  padding: 5em;
+  padding: 15em;
   border-radius: 1em;
 }
 
@@ -184,6 +184,14 @@
   color: #3879cf;
   text-decoration: none;
 }
+
+/*-------------CODE-----------------*/
+
+.codeList{
+  text-decoration: none;
+  list-style: none;
+}
+
 
 /*-------------FOOTER-----------------*/
 
