@@ -24,8 +24,8 @@ export default function Home(){
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="homeHeader" style={{marginBottom: "1em"}}>My Portfolios</h2>
                     <div style={{display: "flex", justifyContent: "center"}}>
-                        <button type="button" className="homeButton" style={{marginRight: "3em"}}><Link to="/Code">Coding</Link></button>
-                        <button type="button" className="homeButton"><Link to="/Video">Video</Link></button>
+                        <button type="button" className="homeButton" style={{marginRight: "3em"}}><Link to="/Video">Video</Link></button>
+                        <button type="button" className="homeButton"><Link to="/Code">Code</Link></button>
                     </div>
                 </div>
                 <div style={{marginBottom: "15%"}}>

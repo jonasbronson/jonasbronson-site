@@ -1,5 +1,9 @@
 import React from "react";
-import Accolades from "../assets/video/accolades.png"
+import Accolades from "../assets/video/accolades.png";
+import Wedding from "../assets/video/work-5.png";
+import Highlight from "../assets/video/work-2.png";
+import Contest from "../assets/video/work-3.png";
+
 
 export default function Video(){
     return(
@@ -8,6 +12,20 @@ export default function Video(){
                 <h1 className="videoTitle"><span>Video</span> Portfolio</h1>
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Work</h2>
+                    <div style={{display: "flex"}}>
+                        <div>
+                            <img src={Wedding} className="videoWorkImages" />
+                        </div>
+                        <div>
+                            <img src={Highlight} className="videoWorkImages" />
+                        </div>
+                        <div>
+                            <img src={Contest} className="videoWorkImages" />
+                        </div>
+                        <div>
+                            <button className="videoWorkButton">SEE<br />MORE</button>
+                        </div>
+                    </div>
                 </div>
                 <div>
                     <h2 className="genH2">Accolades and Awards</h2>

@@ -161,6 +161,28 @@
   color: #3879cf;
 }
 
+.videoWorkImages{
+  border-radius: 1em;
+  flex-basis: 45%;
+  max-width: 95%;
+}
+
+.videoWorkButton{
+  background-color: #3879cf;
+  height: 100%;
+  border-radius: 0.5em;
+  width: 100%;
+  padding: 1em;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  align-self: center;
+}
+
+.videoWorkButton:hover{
+  cursor: pointer;
+}
+
 .videoTwoTime span{
   color: #3879cf;
 }
