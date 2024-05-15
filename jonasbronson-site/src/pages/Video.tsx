@@ -13,17 +13,26 @@ export default function Video(){
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Work</h2>
                     <div style={{display: "flex"}}>
-                        <div>
-                            <img src={Wedding} className="videoWorkImages" />
+                        <div className="videoWorkImageContainer videoWorkImage1">
+                            <a href="https://youtu.be/0tVs0_6oVAw?si=aui6P3SJfdg6AGP-"><img src={Wedding} className="videoWorkImages" /></a>
+                            <div className="videoWorkTextContainer">
+                                <p className="genP">Hello World</p>
+                            </div>
+                        </div>
+                        <div className="videoWorkImageContainer videoWorkImage2">
+                            <a href="https://youtu.be/C_GCeATJakc?si=lx54H0HqpAmJDBeO"><img src={Highlight} className="videoWorkImages" /></a>
+                            <div className="videoWorkTextContainer">
+                                <p className="genP">Hello World</p>
+                            </div>
+                        </div>
+                        <div className="videoWorkImageContainer videoWorkImage3">
+                            <a href="https://youtu.be/qgE-RPuwqjo?si=nxBXy9G45r_Z0XeA"><img src={Contest} className="videoWorkImages" /></a>
+                            <div className="videoWorkTextContainer">
+                                <p className="genP">Hello World</p>
+                            </div>
                         </div>
                         <div>
-                            <img src={Highlight} className="videoWorkImages" />
-                        </div>
-                        <div>
-                            <img src={Contest} className="videoWorkImages" />
-                        </div>
-                        <div>
-                            <button className="videoWorkButton">SEE<br />MORE</button>
+                            <button className="videoWorkButton">SEE MORE</button>
                         </div>
                     </div>
                 </div>

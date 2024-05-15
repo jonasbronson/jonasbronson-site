@@ -25,6 +25,7 @@
 .genP{
   font-weight: 500;
   font-size: 18px;
+  color: white;
 }
 
 .header{
@@ -167,6 +168,39 @@
   max-width: 95%;
 }
 
+.videoWorkTextContainer{
+  opacity: 0%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.videoWorkImageContainer{
+  opacity: 100%;
+  transition: opacity 0.5s ease-in-out;
+  position: relative;
+}
+
+.videoWorkImageContainer:hover{
+  cursor: pointer;
+}
+
+.videoWorkImageContainer:hover .videoWorkImages{
+  opacity: 50%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.videoWorkImageContainer .videoWorkImages{
+  opacity: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.videoWorkImageContainer:hover .videoWorkTextContainer{
+  opacity: 100%;
+}
+
 .videoWorkButton{
   background-color: #3879cf;
   height: 100%;
@@ -177,6 +211,7 @@
   font-weight: 600;
   border: none;
   align-self: center;
+  width: 100%;
 }
 
 .videoWorkButton:hover{
