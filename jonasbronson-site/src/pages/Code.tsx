@@ -28,14 +28,14 @@ export default function Code(){
                     <div style={{display: "flex"}}>
                         <div style={{flexBasis: "50%"}}>
                             <h3 className="genH3">Completed</h3>
-                            <ul>
+                            <ul style={{translate: "-37px"}}>
                                 <li className="genP codeList">Data Structures and Algorithms</li>
                                 <li className="genP codeList">Object Oriented Design</li>
                             </ul>
                         </div>
                         <div>
                             <h3 className="genH3">In Progress</h3>
-                            <ul>
+                            <ul style={{translate: "-37px"}}>
                                 <li className="genP codeList">Software Architecture and Design</li>
                                 <li className="genP codeList">Database Systems</li>
                                 <li className="genP codeList">Cryptography</li>

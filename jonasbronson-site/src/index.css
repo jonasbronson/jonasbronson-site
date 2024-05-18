@@ -166,6 +166,7 @@
   border-radius: 1em;
   flex-basis: 45%;
   max-width: 95%;
+  
 }
 
 .videoWorkTextContainer{
@@ -174,12 +175,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .videoWorkImageContainer{
   opacity: 100%;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
   position: relative;
 }
 
@@ -189,12 +190,12 @@
 
 .videoWorkImageContainer:hover .videoWorkImages{
   opacity: 50%;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .videoWorkImageContainer .videoWorkImages{
   opacity: 100%;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .videoWorkImageContainer:hover .videoWorkTextContainer{
@@ -202,7 +203,7 @@
 }
 
 .videoWorkButton{
-  background-color: #3879cf;
+  background-color: #222222;
   height: 100%;
   border-radius: 0.5em;
   width: 100%;
@@ -212,10 +213,12 @@
   border: none;
   align-self: center;
   width: 100%;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .videoWorkButton:hover{
   cursor: pointer;
+  background-color: #3879cf;
 }
 
 .videoTwoTime span{

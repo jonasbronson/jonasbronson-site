@@ -4,6 +4,8 @@ import Wedding from "../assets/video/work-5.png";
 import Highlight from "../assets/video/work-2.png";
 import Contest from "../assets/video/work-3.png";
 
+const centerStyle = { textAlign: 'center' };
+
 
 export default function Video(){
     return(
@@ -16,19 +18,20 @@ export default function Video(){
                         <div className="videoWorkImageContainer videoWorkImage1">
                             <a href="https://youtu.be/0tVs0_6oVAw?si=aui6P3SJfdg6AGP-"><img src={Wedding} className="videoWorkImages" /></a>
                             <div className="videoWorkTextContainer">
-                                <p className="genP">Hello World</p>
+                                <h4 className="genH4" style={{textAlign: 'center'}}>Wedding Film</h4>
+                                <p className="genP" style={{textAlign: 'center'}}>My first wedding film made from scratch with most shots and editing by me.</p>
                             </div>
                         </div>
                         <div className="videoWorkImageContainer videoWorkImage2">
                             <a href="https://youtu.be/C_GCeATJakc?si=lx54H0HqpAmJDBeO"><img src={Highlight} className="videoWorkImages" /></a>
                             <div className="videoWorkTextContainer">
-                                <p className="genP">Hello World</p>
+                                <h4 className="genH4" style={{textAlign: 'center'}}>Athletics Hype</h4>
                             </div>
                         </div>
                         <div className="videoWorkImageContainer videoWorkImage3">
                             <a href="https://youtu.be/qgE-RPuwqjo?si=nxBXy9G45r_Z0XeA"><img src={Contest} className="videoWorkImages" /></a>
                             <div className="videoWorkTextContainer">
-                                <p className="genP">Hello World</p>
+                                <h4 className="genH4" style={{textAlign: 'center'}}>JEA Competition</h4>
                             </div>
                         </div>
                         <div>
