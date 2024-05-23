@@ -28,30 +28,35 @@ export default function Code(){
                 </div>
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Education</h2>
-                    <div style={{display: "flex"}}>
-                        <div style={{flexBasis: "25%", alignContent: "center",}}>
+                    <div className="codeEducationDiv">
+                        <div className="codeTimelineDiv">
                             <div className="codeTimelineDot codeComplete"/>
                             <div className="codeTimelineLine codeComplete"/>
                             <div className="codeTimelineDot codeComplete"/>
-                            <div className="codeTimelineLine"/>
+                            <div className="codeTimelineLine codeTimelineLineHalf codeComplete"/>
+                            <div className="codeTimelineLine codeTimelineLineHalf"/>
                             <div className="codeTimelineDot"/>
                             <div className="codeTimelineLine"/>
                             <div className="codeTimelineDot"/>
                             <div className="codeTimelineLine"/>
                             <div className="codeTimelineDot"/>
                         </div>
-                        <div>
-                            <h3 className="genH3">Completed</h3>
-                            <ul style={{translate: "-37px"}}>
-                                <li className="genP codeList">Data Structures and Algorithms</li>
-                                <li className="genP codeList">Object Oriented Design</li>
-                            </ul>
-                            <h3 className="genH3">In Progress</h3>
-                            <ul style={{translate: "-37px"}}>
-                                <li className="genP codeList">Software Architecture and Design</li>
-                                <li className="genP codeList">Database Systems</li>
-                                <li className="genP codeList">Cryptography</li>
-                            </ul>
+                        <div className="codeEducationTextDiv">
+                            <div>
+                                <h3 className="genH3">Completed</h3>
+                                <ul style={{translate: "-37px"}}>
+                                    <li className="genP codeList">Data Structures and Algorithms</li>
+                                    <li className="genP codeList">Object Oriented Design</li>
+                                </ul>
+                            </div>
+                            <div style={{flexBasis: "50%"}}>
+                                <h3 className="genH3">In Progress</h3>
+                                <ul style={{translate: "-37px"}}>
+                                    <li className="genP codeList">Software Architecture and Design</li>
+                                    <li className="genP codeList">Database Systems</li>
+                                    <li className="genP codeList">Cryptography</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
