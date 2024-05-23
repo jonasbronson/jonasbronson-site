@@ -9,14 +9,17 @@ export default function Code(){
                     <h2 className="genH2">My Projects</h2>
                     <div style={{display: "flex"}}>
                         <div>
-                            <h3 className="genH3">Project 1</h3>
-                            <p className="genP">This is a description of project 1.</p>
+                            <h3 className="genH3">|mobile app|</h3>
+                            <p className="genP">insert description</p>
                         </div>
                     </div>
                     <div style={{display: "flex"}}>
                         <div>
-                            <h3 className="genH3">Project 2</h3>
-                            <p className="genP">This is a description of project 2.</p>
+                            <h3 className="genH3">CIS 300 Projects</h3>
+                            <p className="genP">Projects using C# and the .NET framework. These projects use 
+                                algorithms and data structures and include sorting algorithms, path finders, and 
+                                hash functions. See more on my <a href="https://github.com/jonasbronson" style={{textDecoration: "none", color: "#3879cf"}}>GitHub</a>.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -26,14 +29,23 @@ export default function Code(){
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Education</h2>
                     <div style={{display: "flex"}}>
-                        <div style={{flexBasis: "50%"}}>
+                        <div style={{flexBasis: "25%", alignContent: "center",}}>
+                            <div className="codeTimelineDot codeComplete"/>
+                            <div className="codeTimelineLine codeComplete"/>
+                            <div className="codeTimelineDot codeComplete"/>
+                            <div className="codeTimelineLine"/>
+                            <div className="codeTimelineDot"/>
+                            <div className="codeTimelineLine"/>
+                            <div className="codeTimelineDot"/>
+                            <div className="codeTimelineLine"/>
+                            <div className="codeTimelineDot"/>
+                        </div>
+                        <div>
                             <h3 className="genH3">Completed</h3>
                             <ul style={{translate: "-37px"}}>
                                 <li className="genP codeList">Data Structures and Algorithms</li>
                                 <li className="genP codeList">Object Oriented Design</li>
                             </ul>
-                        </div>
-                        <div>
                             <h3 className="genH3">In Progress</h3>
                             <ul style={{translate: "-37px"}}>
                                 <li className="genP codeList">Software Architecture and Design</li>
