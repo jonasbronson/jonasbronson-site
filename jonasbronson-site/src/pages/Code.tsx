@@ -1,4 +1,7 @@
 import React from "react";
+import JS from "../assets/code/js.png";
+import CSharp from "../assets/code/cSharp.png";
+import CPlusPlus from "../assets/code/cPlusPlus.png";
 
 export default function Code(){
     return(
@@ -25,6 +28,20 @@ export default function Code(){
                 </div>
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Languages</h2>
+                    <div className="codeLanguagesDiv">
+                        <img className="codeLanguages codeLanguagesJava" src={JS}/>
+                        <img className="codeLanguages" src={CPlusPlus}/>
+                        <img className="codeLanguages" src={CSharp}/>
+                    </div>
+                    <div>
+                        <h3 className="genH3">Plus some experience in</h3>
+                        <ul style={{translate: "-37px"}}>
+                            <li className="genP codeList">Python</li>
+                            <li className="genP codeList">HTML + CSS</li>
+                            <li className="genP codeList">Java</li>
+                            <li className="genP codeList">SQL</li>
+                        </ul>
+                    </div>
                 </div>
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Education</h2>
@@ -49,7 +66,7 @@ export default function Code(){
                                     <li className="genP codeList">Object Oriented Design</li>
                                 </ul>
                             </div>
-                            <div style={{flexBasis: "50%"}}>
+                            <div>
                                 <h3 className="genH3">In Progress</h3>
                                 <ul style={{translate: "-37px"}}>
                                     <li className="genP codeList">Software Architecture and Design</li>

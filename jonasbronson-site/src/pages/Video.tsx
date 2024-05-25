@@ -15,27 +15,32 @@ export default function Video(){
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Work</h2>
                     <div style={{display: "flex"}}>
-                        <div className="videoWorkImageContainer videoWorkImage1">
-                            <a href="https://youtu.be/0tVs0_6oVAw?si=aui6P3SJfdg6AGP-"><img src={Wedding} className="videoWorkImages" /></a>
+                        <div className="videoWorkImageContainer">
+                            <a href="https://youtu.be/0tVs0_6oVAw?si=aui6P3SJfdg6AGP-"><img src={Wedding} className="videoWorkImages" />
                             <div className="videoWorkTextContainer">
                                 <h4 className="genH4" style={{textAlign: 'center'}}>Wedding Film</h4>
                                 <p className="genP" style={{textAlign: 'center'}}>My first wedding film made from scratch with most shots and editing by me.</p>
                             </div>
+                            </a>
                         </div>
-                        <div className="videoWorkImageContainer videoWorkImage2">
-                            <a href="https://youtu.be/C_GCeATJakc?si=lx54H0HqpAmJDBeO"><img src={Highlight} className="videoWorkImages" /></a>
+                        <div className="videoWorkImageContainer">
+                            <a href="https://youtu.be/C_GCeATJakc?si=lx54H0HqpAmJDBeO"><img src={Highlight} className="videoWorkImages" />
                             <div className="videoWorkTextContainer">
                                 <h4 className="genH4" style={{textAlign: 'center'}}>Athletics Hype</h4>
+                                <p className="genP" style={{textAlign: 'center'}}>Hype video made for Shawnee Mission Northwest High School.</p>
                             </div>
+                            </a>
                         </div>
-                        <div className="videoWorkImageContainer videoWorkImage3">
-                            <a href="https://youtu.be/qgE-RPuwqjo?si=nxBXy9G45r_Z0XeA"><img src={Contest} className="videoWorkImages" /></a>
+                        <div className="videoWorkImageContainer">
+                            <a href="https://youtu.be/qgE-RPuwqjo?si=nxBXy9G45r_Z0XeA"><img src={Contest} className="videoWorkImages" />
                             <div className="videoWorkTextContainer">
                                 <h4 className="genH4" style={{textAlign: 'center'}}>JEA Competition</h4>
+                                <p className="genP" style={{textAlign: 'center'}}>Edit that won a superior medal at JEA San Francisco 2024.</p>
                             </div>
+                            </a>
                         </div>
                         <div>
-                            <button className="videoWorkButton">SEE MORE</button>
+                            <a href="https://www.youtube.com"><button className="videoWorkButton">SEE MORE</button></a>
                         </div>
                     </div>
                 </div>
