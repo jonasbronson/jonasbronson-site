@@ -1,41 +1,55 @@
 import React from "react";
 import Accolades from "../assets/video/accolades.png";
+import AccoladesPhone from "../assets/video/accoladesPhone.png";
 import Wedding from "../assets/video/work-5.png";
 import Highlight from "../assets/video/work-2.png";
 import Contest from "../assets/video/work-3.png";
 
-const centerStyle = { textAlign: 'center' };
-
-
 export default function Video(){
+
+    const [isLargeScreen, setIsLargeScreen] = React.useState(window.innerWidth > 1000);
+
+    React.useEffect(() => {
+        const handleResize = () => {
+            setIsLargeScreen(window.innerWidth > 1000);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+
     return(
         <>
             <div style={{margin: "10%"}}>
                 <h1 className="videoTitle"><span>Video</span> Portfolio</h1>
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Work</h2>
-                    <div style={{display: "flex"}}>
+                    <div className="videoWorkDiv">
                         <div className="videoWorkImageContainer">
                             <a href="https://youtu.be/0tVs0_6oVAw?si=aui6P3SJfdg6AGP-"><img src={Wedding} className="videoWorkImages" />
                             <div className="videoWorkTextContainer">
-                                <h4 className="genH4" style={{textAlign: 'center'}}>Wedding Film</h4>
-                                <p className="genP" style={{textAlign: 'center'}}>My first wedding film made from scratch with most shots and editing by me.</p>
+                                <h4 className="genH4 videoWorkText" >Wedding Film</h4>
+                                <p className="genP videoWorkText" >My first wedding film made from scratch with most shots and editing by me.</p>
                             </div>
                             </a>
                         </div>
                         <div className="videoWorkImageContainer">
                             <a href="https://youtu.be/C_GCeATJakc?si=lx54H0HqpAmJDBeO"><img src={Highlight} className="videoWorkImages" />
                             <div className="videoWorkTextContainer">
-                                <h4 className="genH4" style={{textAlign: 'center'}}>Athletics Hype</h4>
-                                <p className="genP" style={{textAlign: 'center'}}>Hype video made for Shawnee Mission Northwest High School.</p>
+                                <h4 className="genH4 videoWorkText" >Athletics Hype</h4>
+                                <p className="genP videoWorkText" >Hype video made for Shawnee Mission Northwest High School.</p>
                             </div>
                             </a>
                         </div>
                         <div className="videoWorkImageContainer">
                             <a href="https://youtu.be/qgE-RPuwqjo?si=nxBXy9G45r_Z0XeA"><img src={Contest} className="videoWorkImages" />
                             <div className="videoWorkTextContainer">
-                                <h4 className="genH4" style={{textAlign: 'center'}}>JEA Competition</h4>
-                                <p className="genP" style={{textAlign: 'center'}}>Edit that won a superior medal at JEA San Francisco 2024.</p>
+                                <h4 className="genH4 videoWorkText" >JEA Competition</h4>
+                                <p className="genP videoWorkText" >Edit that won a superior medal at JEA San Francisco 2024.</p>
                             </div>
                             </a>
                         </div>
@@ -46,7 +60,7 @@ export default function Video(){
                 </div>
                 <div>
                     <h2 className="genH2">Accolades and Awards</h2>
-                    <div style={{display: "flex"}}>
+                    <div className="videoAccoladesDiv">
                         <div>
                             <h3 className="genH3 videoTwoTime"><span>Two Time</span> National Award Winner</h3>
                             <p className="genP videoAccoladesText">Two national awards, one school year. Awarded by the Journalism Education Association (JEA), 
@@ -62,7 +76,7 @@ export default function Video(){
                             requirements, a folder of footage, and time constraints. <br /><br />Award given at JEA San Francisco 
                             Spring 2023 Convention. <br /><br />Watch the video <a href="https://youtu.be/qgE-RPuwqjo" className="videoAccoladesLink">here</a>.</p>
                         </div>
-                        <img src={Accolades} className="videoAccoladesPic"/>
+                        <img src={isLargeScreen ? Accolades : AccoladesPhone} className="videoAccoladesPic"/>
                         
 
                     </div>
