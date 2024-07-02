@@ -12,8 +12,11 @@ export default function Code(){
                     <h2 className="genH2">My Projects</h2>
                     <div style={{display: "flex"}}>
                         <div>
-                            <h3 className="genH3">|mobile app|</h3>
-                            <p className="genP">insert description</p>
+                            <h3 className="genH3">Goalkeeper</h3>
+                            <p className="genP">My work-in-progress minimalist goal tracking app built using React Native and Expo.
+                                The app aims to have functionality to remind users of their goals, set new goals, and keep
+                                things fun.
+                            </p>
                         </div>
                     </div>
                     <div style={{display: "flex"}}>

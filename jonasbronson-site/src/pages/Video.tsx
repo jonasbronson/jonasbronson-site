@@ -49,7 +49,7 @@ export default function Video(){
                             <a href="https://youtu.be/qgE-RPuwqjo?si=nxBXy9G45r_Z0XeA"><img src={Contest} className="videoWorkImages" />
                             <div className="videoWorkTextContainer">
                                 <h4 className="genH4 videoWorkText" >JEA Competition</h4>
-                                <p className="genP videoWorkText" >Edit that won a superior medal at JEA San Francisco 2024.</p>
+                                <p className="genP videoWorkText" >Edit that won a superior medal at JEA San Francisco 2023.</p>
                             </div>
                             </a>
                         </div>

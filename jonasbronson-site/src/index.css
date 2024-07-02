@@ -65,6 +65,7 @@
   font-weight: 500; /* 500 is medium */
   text-align: right;
   position: relative;
+  
 }
 
 .headerLinks::after{
