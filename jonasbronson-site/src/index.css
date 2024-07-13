@@ -358,17 +358,17 @@
     font-size: 4.5em;
   }
 
-  .videoWorkDiv{
-    display: block;
-  }
-
   .videoWorkImages{
     max-width: 40%;
   }
 
+  .videoWorkDiv{
+    display: block;
+  }
+
   .videoWorkTextContainer{
     opacity: 100%;
-    left: 75%;
+    transform: translateX(-10%);
   }
 
   .videoWorkText{
@@ -431,6 +431,18 @@
 
   .headerLogo{
     font-size: 1.5em;
+  }
+
+  .videoWorkImages{
+    max-width: 100%;
+  }
+
+  .videoWorkText{
+    text-align: center;
+  }
+
+  .videoWorkTextContainer{
+    transform: translate(-50%, -50%);
   }
 
   .codeLanguages{

@@ -26,7 +26,7 @@ export default function Home(){
             <div style={{ margin: "10%" }}>
                 <div className="homeFront">
                     <h1 className="homeTitle">Hi, I'm <span>Jonas</span>.</h1>
-                    <h3 className="homeSubTitle">Computer Science/Cybersecurity Student<br></br>Hobbyist Videographer/Video Editor</h3>
+                    <h3 className="homeSubTitle">Computer Science/Cybersecurity Student<br /><br />Video Producer</h3>
                 </div>
                 <div style={{ marginBottom: "15%" }}>
                     <h2 className="homeSpecialHeader">I Specialize In</h2>
