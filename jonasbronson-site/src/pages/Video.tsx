@@ -29,33 +29,38 @@ export default function Video(){
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Work</h2>
                     <div className="videoWorkDiv">
-                        <div className="videoWorkImageContainer">
-                            <a href="https://youtu.be/0tVs0_6oVAw?si=aui6P3SJfdg6AGP-"><img src={Wedding} className="videoWorkImages" />
-                            <div className="videoWorkTextContainer">
-                                <h4 className="genH4 videoWorkText" >Wedding Film</h4>
-                                <p className="genP videoWorkText" >My first wedding film made from scratch with most shots and editing by me.</p>
+                        <div style={{display: "flex"}}>
+                            <div className="videoWorkImageContainer">
+                                <a href="https://youtu.be/0tVs0_6oVAw?si=aui6P3SJfdg6AGP-"><img src={Wedding} className="videoWorkImages" />
+                                <div className="videoWorkTextContainer">
+                                    <h4 className="genH4 videoWorkText" >Wedding Film</h4>
+                                    <p className="genP videoWorkText" >My first wedding film made from scratch with most shots and editing by me.</p>
+                                </div>
+                                </a>
                             </div>
-                            </a>
-                        </div>
-                        <div className="videoWorkImageContainer">
-                            <a href="https://youtu.be/C_GCeATJakc?si=lx54H0HqpAmJDBeO"><img src={Highlight} className="videoWorkImages" />
-                            <div className="videoWorkTextContainer">
-                                <h4 className="genH4 videoWorkText" >Athletics Hype</h4>
-                                <p className="genP videoWorkText" >Hype video made for Shawnee Mission Northwest High School.</p>
+                            <div className="videoWorkImageContainer">
+                                <a href="https://youtu.be/C_GCeATJakc?si=lx54H0HqpAmJDBeO"><img src={Highlight} className="videoWorkImages" />
+                                <div className="videoWorkTextContainer">
+                                    <h4 className="genH4 videoWorkText" >Athletics Hype</h4>
+                                    <p className="genP videoWorkText" >Hype video made for Shawnee Mission Northwest High School.</p>
+                                </div>
+                                </a>
                             </div>
-                            </a>
                         </div>
-                        <div className="videoWorkImageContainer">
-                            <a href="https://youtu.be/qgE-RPuwqjo?si=nxBXy9G45r_Z0XeA"><img src={Contest} className="videoWorkImages" />
-                            <div className="videoWorkTextContainer">
-                                <h4 className="genH4 videoWorkText" >JEA Competition</h4>
-                                <p className="genP videoWorkText" >Edit that won a superior medal at JEA San Francisco 2023.</p>
+                        <div style={{display: "flex"}}>
+                            <div className="videoWorkImageContainer">
+                                <a href="https://youtu.be/qgE-RPuwqjo?si=nxBXy9G45r_Z0XeA"><img src={Contest} className="videoWorkImages" />
+                                <div className="videoWorkTextContainer">
+                                    <h4 className="genH4 videoWorkText" >JEA Competition</h4>
+                                    <p className="genP videoWorkText" >Edit that won a superior medal at JEA San Francisco 2023.</p>
+                                </div>
+                                </a>
                             </div>
-                            </a>
+                            <div>
+                                <a href="https://www.youtube.com/playlist?list=PLswGkvnLPAr22CnjC8q2IrWl151eo1vux"><button className="videoWorkButton">SEE MORE</button></a>
+                            </div>
                         </div>
-                        <div>
-                            <a href="https://www.youtube.com"><button className="videoWorkButton">SEE MORE</button></a>
-                        </div>
+                        
                     </div>
                 </div>
                 <div>

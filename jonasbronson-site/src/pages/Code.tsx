@@ -32,17 +32,26 @@ export default function Code(){
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Languages</h2>
                     <div className="codeLanguagesDiv">
-                        <img className="codeLanguages codeLanguagesJava" src={JS}/>
-                        <img className="codeLanguages" src={CPlusPlus}/>
-                        <img className="codeLanguages" src={CSharp}/>
+                        <div>
+                            <img className="codeLanguages" src={JS}/>
+                            <h4 className="genH4 codeMainLanguages">JavaScript</h4>
+                        </div>
+                        <div>
+                            <img className="codeLanguages" src={CPlusPlus}/>
+                            <h4 className="genH4 codeMainLanguages">C++</h4>
+                        </div>
+                        <div>
+                            <img className="codeLanguages" src={CSharp}/>
+                            <h4 className="genH4 codeMainLanguages">C#</h4>
+                        </div>
                     </div>
                     <div>
-                        <h3 className="genH3">Plus some experience in</h3>
+                        <h3 className="genH3">Plus some experience in:</h3>
                         <ul style={{translate: "-37px"}}>
-                            <li className="genP codeList">Python</li>
-                            <li className="genP codeList">HTML + CSS</li>
-                            <li className="genP codeList">Java</li>
-                            <li className="genP codeList">SQL</li>
+                            <li className="genH4 codeList">Python</li>
+                            <li className="genH4 codeList">HTML + CSS</li>
+                            <li className="genH4 codeList">Java</li>
+                            <li className="genH4 codeList">SQL</li>
                         </ul>
                     </div>
                 </div>

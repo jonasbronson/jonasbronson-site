@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { animated } from '@react-spring/web'
+import FrontPic from "../assets/front.png";
 import ProfileNature from "../assets/profileNature.jpg";
 import ProfileNaturePhone from "../assets/profileNaturePhone.png";
 import CodePic from "../assets/code.png";
+import VideoPic from "../assets/video/work-5.png"
 
 export default function Home(){
 
@@ -23,8 +24,9 @@ export default function Home(){
 
     return (
         <>
-            <div style={{ margin: "10%" }}>
+            <div style={{ marginLeft: "10%", marginRight: "10%"}}>
                 <div className="homeFront">
+                    <img src={FrontPic} className="homeFrontPic"/>
                     <h1 className="homeTitle">Hi, I'm <span>Jonas</span>.</h1>
                     <h3 className="homeSubTitle">Computer Science/Cybersecurity Student<br /><br />Video Producer</h3>
                 </div>
@@ -35,13 +37,29 @@ export default function Home(){
                         Graphic Design <br />
                         Video Editing <br />
                         Videography <br />
-                        <span>and so on...</span></h3>
+                        and IT</h3>
                 </div>
                 <div style={{ marginBottom: "15%" }}>
-                    <h2 className="homeHeader" style={{ marginBottom: "1em" }}>My Portfolios</h2>
-                    <div style={{ display: "flex", justifyContent: "center" }}>
-                        <button type="button" className="homeButton" style={{ marginRight: "3em" }}><Link to="/Video">Video</Link></button>
-                        <button type="button" className="homeButton"><Link to="/Code">Code</Link></button>
+                    <h2 className="homeHeader">My Portfolios</h2>
+                    <div className="homeButtonContainer">
+                        <Link to="/Video" style={{marginRight: "1em"}}>
+                            <div className="homeButton">
+                                <img src={VideoPic} className="homeButtonPic" />
+                                <div className="homeButtonTextContainer">
+                                    <h3 className="genH3 homeButtonText">Video</h3>
+                                    <p className="genP homeButtonText">View my video production work and accolades.</p>
+                                </div>
+                            </div>
+                        </Link>
+                        <Link to="/Code">
+                            <div className="homeButton">
+                                <img src={CodePic} className="homeButtonPic" />
+                                <div className="homeButtonTextContainer">
+                                    <h3 className="genH3 homeButtonText">Code</h3>
+                                    <p className="genP homeButtonText">View my video production work and accolades.</p>
+                                </div>
+                            </div>
+                        </Link>
                     </div>
                 </div>
                 <div style={{ marginBottom: "15%" }}>

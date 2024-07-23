@@ -14,11 +14,11 @@
 
 .genH3{
   font-weight: 600;
-  font-size: 36px;
+  font-size: 2.5em;
 }
 
 .genH4{
-  font-size: 2.25em;
+  font-size: 2em;
   font-weight: 600;
 }
 
@@ -87,10 +87,15 @@
   text-align: center;
 }
 
+.homeFrontPic{
+  max-width: 50%;
+}
+
 .homeTitle{
   font-size: 6em;
   font-weight: 600;
   margin-bottom: 0%;
+  margin-top: 0%;
 }
 
 .homeTitle span{
@@ -128,14 +133,48 @@
   color: #8B8B8B;
 }
 
+.homeButtonContainer{
+  display: flex;
+  margin-top: 1em;
+}
+
 .homeButton{
-  padding: 20%;
-  border-radius: 5%;
-  border: none;
+  height: 100%;
+  border-radius: 0.5em;
+  width: 100%;
+  position: relative;
 }
 
 .homeButton:hover{
   cursor: pointer;
+}
+
+.homeButtonPic{
+  max-width: 100%;
+  border-radius: 1em;
+}
+
+.homeButtonTextContainer{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.homeButtonText{
+  text-shadow: 1px 1px 1px #181717;
+  text-decoration-line: none;
+  text-align: center;
+}
+
+.homeButton:hover .homeButtonPic{
+  opacity: 50%;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.homeButton .homeButtonPic{
+  opacity: 100%;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .homeAboutPic{
@@ -143,12 +182,13 @@
   flex-basis: 35%;
   max-width: 30%;
   align-self: center;
-  margin-top: 0;
+  margin-top: 2em;
 }
 
 .homeAboutText{
   margin-left: 4em;
   font-size: 1.125em;
+  align-self: center;
 }
 
 .homeContactText{
@@ -173,12 +213,13 @@
 
 .videoWorkDiv{
   display: flex;
+  flex-wrap: nowrap;
 }
 
 .videoWorkImages{
   border-radius: 1em;
-  flex-basis: 45%;
-  max-width: 95%;
+  flex-basis: 33%;
+  max-width: 100%;
 }
 
 .videoWorkText{
@@ -198,6 +239,7 @@
   opacity: 100%;
   transition: opacity 0.2s ease-in-out;
   position: relative;
+  margin-right: 1em;
 }
 
 .videoWorkImageContainer:hover{
@@ -227,7 +269,6 @@
   font-size: 1.875em;
   font-weight: 600;
   border: none;
-  width: 100%;
   transition: background-color 0.2s ease-in-out;
 }
 
@@ -278,14 +319,15 @@
 }
 
 .codeLanguages{
-  max-width: 20%;
-  margin-left: 3em;
-  margin-right: 3em;
+  max-width: 80%;
   align-self: center;
+  border-radius: 5%;
+  display: block;
+  margin: 0 auto;
 }
 
-.codeLanguagesJava{
-  border-radius: 5%;
+.codeMainLanguages{
+  text-align: center;
 }
 
 .codeEducationDiv{
@@ -397,6 +439,10 @@
     margin-top: 2em;
   }
 
+  .videoWorkDiv{
+    flex-wrap: wrap;
+  }
+
   .videoAccoladesDiv{
     display: block;
   }
@@ -439,6 +485,7 @@
 
   .videoWorkText{
     text-align: center;
+    text-shadow: 1px 1px 1px #181717;
   }
 
   .videoWorkTextContainer{
@@ -454,8 +501,24 @@
 
 @media screen and (max-width: 600px){
 
+  .homeFrontPic{
+    max-width: 100%;
+  }
+
   .homeTitle{
     font-size: 3.75em;
+  }
+
+  .homeSpecialHeader{
+    text-align: center;
+  }
+
+  .homeSpecialList{
+    text-align: center;
+  }
+
+  .homeButtonContainer{
+    display: block;
   }
 
   .homeAboutText{
@@ -468,6 +531,7 @@
 
   .genH2{
     font-size: 2.25em;
+    text-align: center;
   }
 
   .genH3{
@@ -475,7 +539,11 @@
   }
 
   .genH4{
-    font-size: 1.125em;
+    font-size: 1.2em;
+  }
+
+  .genP{
+    font-size: 1em;
   }
 
   .videoTitle{
