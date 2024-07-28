@@ -161,6 +161,14 @@
   position: relative;
 }
 
+.homeButtonLeft{
+  left: 21%;
+}
+
+.homeButtonRight{
+  left: 4%;
+}
+
 .homeButton:hover{
   cursor: pointer;
 }
@@ -230,11 +238,11 @@
 .videoWorkDiv{
   display: flex;
   flex-wrap: nowrap;
+  column-gap: 1em;
 }
 
 .videoWorkImages{
   border-radius: 1em;
-  flex-basis: 33%;
   max-width: 100%;
 }
 
@@ -255,7 +263,6 @@
   opacity: 100%;
   transition: opacity 0.2s ease-in-out;
   position: relative;
-  margin-right: 1em;
 }
 
 .videoWorkImageContainer:hover{
@@ -419,21 +426,17 @@
     font-size: 4.5em;
   }
 
-  .videoWorkImages{
-    max-width: 40%;
+  .videoWorkDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
-  .videoWorkDiv{
-    display: block;
+  .videoWorkImageContainer a img{
+    object-fit: cover;
   }
 
   .videoWorkTextContainer{
     opacity: 100%;
-    transform: translateX(-10%);
-  }
-
-  .videoWorkText{
-    text-align: right;
   }
 
   .videoWorkButton{
@@ -443,6 +446,10 @@
 }
 
 @media screen and (max-width: 1000px){
+
+  .genMargins{
+    margin-top: 13%;
+  }
 
   .homeAboutDiv{
     display: block;
@@ -486,6 +493,26 @@
     font-size: 2.25em;
   }
 
+  .homeButtonContainer{
+    column-gap: 1em;
+  }
+
+  .homeButton{
+    width: 100%;
+  }
+  
+  .homeButtonLeft{
+    left: 0;
+  }
+  
+  .homeButtonRight{
+    left: 0;
+  }
+
+  .homeFrontPic{
+    width: 75%;
+  }
+
   .homeSpecialHeader{
     font-size: 2.25em;
   }
@@ -524,7 +551,7 @@
   }
 
   .homeFrontPic{
-    max-width: 100%;
+    width: 100%;
   }
 
   .homeTitle{
@@ -570,6 +597,10 @@
 
   .videoTitle{
     font-size: 3.75em;
+  }
+
+  .videoWorkDiv{
+    display: block;
   }
 
   .codeEducationDiv{

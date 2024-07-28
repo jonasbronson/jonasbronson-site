@@ -43,20 +43,20 @@ export default function Home(){
                     <h2 className="homeHeader">My Portfolios</h2>
                     <div className="homeButtonContainer">
                         <Link to="/Video">
-                            <div className="homeButton" style={{left: "21%"}}>
+                            <div className="homeButton homeButtonLeft">
                                 <img src={VideoPic} className="homeButtonPic" />
                                 <div className="homeButtonTextContainer">
-                                    <h3 className="genH3 homeButtonText">Video</h3>
+                                    <h4 className="genH4 homeButtonText">Video</h4>
                                     <p className="genP homeButtonText">View my video production work and accolades.</p>
                                 </div>
                             </div>
                         </Link>
                         <Link to="/Code">
-                            <div className="homeButton" style={{left: "4%"}}>
+                            <div className="homeButton homeButtonRight">
                                 <img src={CodePic} className="homeButtonPic" />
                                 <div className="homeButtonTextContainer">
-                                    <h3 className="genH3 homeButtonText">Code</h3>
-                                    <p className="genP homeButtonText">View my video production work and accolades.</p>
+                                    <h4 className="genH4 homeButtonText">Dev</h4>
+                                    <p className="genP homeButtonText">My coding projects and languages.</p>
                                 </div>
                             </div>
                         </Link>

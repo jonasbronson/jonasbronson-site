@@ -51,15 +51,15 @@ const bigJava="JavaScript";
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Languages</h2>
                     <div className="codeLanguagesDiv">
-                        <div className="codeLanguagesContainer">
+                        <div>
                             <img className="codeLanguages" src={JS}/>
                             <h4 className="genP codeMainLanguages">{isLargeScreen ? bigJava : smallJava}</h4>
                         </div>
-                        <div className="codeLanguagesContainer">
+                        <div>
                             <img className="codeLanguages" src={CPlusPlus}/>
                             <h4 className="genP codeMainLanguages">C++</h4>
                         </div>
-                        <div className="codeLanguagesContainer" style={{marginRight: "0"}}>
+                        <div style={{marginRight: "0"}}>
                             <img className="codeLanguages" src={CSharp}/>
                             <h4 className="genP codeMainLanguages">C#</h4>
                         </div>
