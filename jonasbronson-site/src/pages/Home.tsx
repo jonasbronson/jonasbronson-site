@@ -24,7 +24,7 @@ export default function Home(){
 
     return (
         <>
-            <div style={{ marginLeft: "10%", marginRight: "10%"}}>
+            <div className="genMargins" style={{marginTop: "4em"}}>
                 <div className="homeFront">
                     <img src={FrontPic} className="homeFrontPic"/>
                     <h1 className="homeTitle">Hi, I'm <span>Jonas</span>.</h1>
@@ -42,8 +42,8 @@ export default function Home(){
                 <div style={{ marginBottom: "15%" }}>
                     <h2 className="homeHeader">My Portfolios</h2>
                     <div className="homeButtonContainer">
-                        <Link to="/Video" style={{marginRight: "1em"}}>
-                            <div className="homeButton">
+                        <Link to="/Video">
+                            <div className="homeButton" style={{left: "21%"}}>
                                 <img src={VideoPic} className="homeButtonPic" />
                                 <div className="homeButtonTextContainer">
                                     <h3 className="genH3 homeButtonText">Video</h3>
@@ -52,7 +52,7 @@ export default function Home(){
                             </div>
                         </Link>
                         <Link to="/Code">
-                            <div className="homeButton">
+                            <div className="homeButton" style={{left: "4%"}}>
                                 <img src={CodePic} className="homeButtonPic" />
                                 <div className="homeButtonTextContainer">
                                     <h3 className="genH3 homeButtonText">Code</h3>

@@ -24,7 +24,7 @@ export default function Header(){
 
     return(
         <>
-            <div style={{display: "flex", justifyContent: "center"}}>
+            <div className="headerContainer">
                 <div className="header">
                     <Link to="" className="headerLogo">Jonas<span>.</span></Link>
                     <div className="headerLinksContainer">

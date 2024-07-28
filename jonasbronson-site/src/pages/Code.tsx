@@ -4,9 +4,28 @@ import CSharp from "../assets/code/cSharp.png";
 import CPlusPlus from "../assets/code/cPlusPlus.png";
 
 export default function Code(){
+
+    const [isLargeScreen, setIsLargeScreen] = React.useState(window.innerWidth > 600);
+
+    React.useEffect(() => {
+        const handleResize = () => {
+            setIsLargeScreen(window.innerWidth > 600);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+
+const smallJava="JS";
+const bigJava="JavaScript";
+
     return(
         <>
-            <div style={{margin: "10%"}}>
+            <div className="genMargins">
                 <h1 className="videoTitle"><span>Coding</span> Portfolio</h1>
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Projects</h2>
@@ -32,17 +51,17 @@ export default function Code(){
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Languages</h2>
                     <div className="codeLanguagesDiv">
-                        <div>
+                        <div className="codeLanguagesContainer">
                             <img className="codeLanguages" src={JS}/>
-                            <h4 className="genH4 codeMainLanguages">JavaScript</h4>
+                            <h4 className="genP codeMainLanguages">{isLargeScreen ? bigJava : smallJava}</h4>
                         </div>
-                        <div>
+                        <div className="codeLanguagesContainer">
                             <img className="codeLanguages" src={CPlusPlus}/>
-                            <h4 className="genH4 codeMainLanguages">C++</h4>
+                            <h4 className="genP codeMainLanguages">C++</h4>
                         </div>
-                        <div>
+                        <div className="codeLanguagesContainer" style={{marginRight: "0"}}>
                             <img className="codeLanguages" src={CSharp}/>
-                            <h4 className="genH4 codeMainLanguages">C#</h4>
+                            <h4 className="genP codeMainLanguages">C#</h4>
                         </div>
                     </div>
                     <div>

@@ -24,7 +24,7 @@ export default function Video(){
 
     return(
         <>
-            <div style={{margin: "10%"}}>
+            <div className="genMargins">
                 <h1 className="videoTitle"><span>Video</span> Portfolio</h1>
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Work</h2>

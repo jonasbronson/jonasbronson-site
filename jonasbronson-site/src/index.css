@@ -28,6 +28,22 @@
   color: white;
 }
 
+.genMargins{
+  margin: 10%;
+}
+
+.headerContainer{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  padding-bottom: 2em;
+  justify-content: center;
+  z-index: 1;
+  background-image: linear-gradient(#181717, transparent);
+}
+
 .header{
   background-color: #222222;
   padding: .7em;
@@ -88,7 +104,7 @@
 }
 
 .homeFrontPic{
-  max-width: 50%;
+  width: 50%;
 }
 
 .homeTitle{
@@ -141,7 +157,7 @@
 .homeButton{
   height: 100%;
   border-radius: 0.5em;
-  width: 100%;
+  width: 75%;
   position: relative;
 }
 
@@ -315,15 +331,18 @@
 
 .codeLanguagesDiv{
   display: flex;
-  justify-content: center;
+  flex-wrap: nowrap;
+  column-gap: 10%;
+  
+}
+
+.codeLanguagesContainer{
 }
 
 .codeLanguages{
-  max-width: 80%;
-  align-self: center;
+  width: 100%;
   border-radius: 5%;
   display: block;
-  margin: 0 auto;
 }
 
 .codeMainLanguages{
@@ -455,6 +474,10 @@
 
 @media screen and (max-width: 800px){
 
+  .genMargins{
+    margin-top: 15%;
+  }
+
   .header{
     column-gap: 3em;
   }
@@ -492,14 +515,13 @@
     transform: translate(-50%, -50%);
   }
 
-  .codeLanguages{
-    margin-left: 2em;
-    margin-right: 2em;
-  }
-
 }
 
 @media screen and (max-width: 600px){
+
+  .genMargins{
+    margin-top: 20%;
+  }
 
   .homeFrontPic{
     max-width: 100%;
@@ -550,19 +572,15 @@
     font-size: 3.75em;
   }
 
-  .codeLanguages{
-    margin-left: 1.4em;
-    margin-right: 1.4em;
-  }
-
   .codeEducationDiv{
     display: flex;
+    justify-content: center;
   }
 
   .codeTimelineDiv{
     flex-basis: 25%;
     align-content: center;
-    margin-bottom: 2em;
+    margin-bottom: 0;
     display: block;
   }
 
@@ -576,13 +594,13 @@
   .codeTimelineLine{
     background-color: #323232;
     width: 0.3em;
-    height: 20%;
+    height: 15%;
     margin-left: 0.60em;
     margin-top: 0;
   }
   
   .codeTimelineLineHalf{
-    height: 10%;
+    height: 7.5%;
   }
 
   .codeComplete{
