@@ -265,6 +265,10 @@
   position: relative;
 }
 
+.videoWorkImageContainer a{
+  height: 0;
+}
+
 .videoWorkImageContainer:hover{
   cursor: pointer;
 }

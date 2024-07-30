@@ -42,7 +42,7 @@ export default function Home(){
                 <div style={{ marginBottom: "15%" }}>
                     <h2 className="homeHeader">My Portfolios</h2>
                     <div className="homeButtonContainer">
-                        <Link to="/Video">
+                        <Link to="/Video" onClick={() => window.scrollTo(0, 0)}>
                             <div className="homeButton homeButtonLeft">
                                 <img src={VideoPic} className="homeButtonPic" />
                                 <div className="homeButtonTextContainer">
@@ -51,7 +51,7 @@ export default function Home(){
                                 </div>
                             </div>
                         </Link>
-                        <Link to="/Code">
+                        <Link to="/Code" onClick={() => window.scrollTo(0, 0)}>
                             <div className="homeButton homeButtonRight">
                                 <img src={CodePic} className="homeButtonPic" />
                                 <div className="homeButtonTextContainer">
