@@ -90,6 +90,11 @@ export default function Home(){
                 <div>
                     <h2 className="homeHeader">Contact Me</h2>
                     <p className="homeContactText">I'd love to hear from you. Contact me with questions, possible opportunities, or anything inbetween.</p>
+                    <a href="mailto:contact@jonasbronson.com" className="homeContactButton">
+                        <div className="homeContactButtonContainer">
+                            <p className="homeContactText">contact@jonasbronson.com</p>
+                        </div>
+                    </a>
                 </div>
                 <div>
 

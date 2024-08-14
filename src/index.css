@@ -221,6 +221,24 @@
   text-align: center;
 }
 
+.homeContactButton{
+  text-decoration: none;
+}
+
+.homeContactButtonContainer{
+  background-color: #222222;
+  border-radius: 1em;
+  padding: 1em;
+  transition: background-color 0.2s ease-in-out;
+  max-width: 50%;
+  
+}
+
+.homeContactButtonContainer:hover{
+  cursor: pointer;
+  background-color: #3879cf;
+}
+
 /*-------------VIDEO-----------------*/
 
 
@@ -447,6 +465,10 @@
     background-color: #3879cf;
   }
 
+  .videoWorkImageContainer{
+    margin-bottom: 1em;
+  }
+
 }
 
 @media screen and (max-width: 1000px){
@@ -479,6 +501,10 @@
 
   .videoAccoladesPic{
     max-width: 100%;
+  }
+
+  .videoWorkImageContainer{
+    margin-bottom: 0;
   }
 
 }
