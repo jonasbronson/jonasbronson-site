@@ -53,7 +53,7 @@ export default function Video(){
                             </div>
                             </a>
                         </div>
-                        <div>
+                        <div className="videoWorkButtonContainer">
                             <a href="https://www.youtube.com/playlist?list=PLswGkvnLPAr22CnjC8q2IrWl151eo1vux"><button className="videoWorkButton">SEE MORE</button></a>
                         </div>
                     </div>

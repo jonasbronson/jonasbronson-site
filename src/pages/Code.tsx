@@ -2,6 +2,8 @@ import React from "react";
 import JS from "../assets/code/js.png";
 import CSharp from "../assets/code/cSharp.png";
 import CPlusPlus from "../assets/code/cPlusPlus.png";
+import GoalVertical from "../assets/code/goalkeeper-vertical.png"
+import GoalHorizontal from "../assets/code/goalkeeper-land.png"
 
 export default function Code(){
 
@@ -29,21 +31,22 @@ const bigJava="JavaScript";
                 <h1 className="videoTitle"><span>Coding</span> Portfolio</h1>
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Projects</h2>
-                    <div style={{display: "flex"}}>
-                        <div>
+                    <div className="codeProjectsContainer">
+                        <div className="codeProjectsTextContainer">
                             <h3 className="genH3">Goalkeeper</h3>
                             <p className="genP">My work-in-progress minimalist goal tracking app built using React Native and Expo.
                                 The app aims to have functionality to remind users of their goals, set new goals, and keep
                                 things fun.
                             </p>
                         </div>
+                        <img src={GoalHorizontal} className="codeProjectsImages"/>
                     </div>
-                    <div style={{display: "flex"}}>
-                        <div>
+                    <div className="codeProjectsContainer">
+                        <div className="codeProjectsTextContainer">
                             <h3 className="genH3">CIS 300 Projects</h3>
                             <p className="genP">Projects using C# and the .NET framework. These projects use 
                                 algorithms and data structures and include sorting algorithms, path finders, and 
-                                hash functions. See more on my <a href="https://github.com/jonasbronson" style={{textDecoration: "none", color: "#3879cf"}}>GitHub</a>.
+                                hash functions. See more on my <a href="https://github.com/jonasbronson?tab=repositories" style={{textDecoration: "none", color: "#3879cf"}}>GitHub</a>.
                             </p>
                         </div>
                     </div>

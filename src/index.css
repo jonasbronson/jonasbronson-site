@@ -231,7 +231,10 @@
   padding: 1em;
   transition: background-color 0.2s ease-in-out;
   max-width: 50%;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .homeContactButtonContainer:hover{
@@ -305,6 +308,10 @@
   opacity: 100%;
 }
 
+.videoWorkButtonContainer{
+  margin-bottom: 0;
+}
+
 .videoWorkButton{
   background-color: #222222;
   height: 100%;
@@ -353,6 +360,20 @@
 
 /*-------------CODE-----------------*/
 
+.codeProjectsContainer{
+  display: flex;
+}
+
+.codeProjectsTextContainer{
+  flex-basis: 50%;
+  margin-right: 2em;
+}
+
+.codeProjectsImages{
+  margin-left: 1em;
+  max-width: 40em;
+}
+
 .codeList{
   text-decoration: none;
   list-style: none;
@@ -366,6 +387,7 @@
 }
 
 .codeLanguagesContainer{
+  
 }
 
 .codeLanguages{
@@ -469,6 +491,15 @@
     margin-bottom: 1em;
   }
 
+  .videoWorkImageContainer a{
+    width: 0;
+    height: 0;
+  }
+
+  .videoWorkButtonContainer{
+    margin-bottom: 1.2em;
+  }
+
 }
 
 @media screen and (max-width: 1000px){
@@ -504,7 +535,7 @@
   }
 
   .videoWorkImageContainer{
-    margin-bottom: 0;
+    margin-bottom: 1em;
   }
 
 }
@@ -608,6 +639,10 @@
     font-size: 1em;
   }
 
+  .homeContactButtonContainer{
+    max-width: 75%;
+  }
+
   .genH2{
     font-size: 2.25em;
     text-align: center;
@@ -631,6 +666,10 @@
 
   .videoWorkDiv{
     display: block;
+  }
+
+  .videoWorkButtonContainer{
+    margin-bottom: 0;
   }
 
   .codeEducationDiv{
