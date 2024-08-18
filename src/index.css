@@ -38,7 +38,7 @@
   left: 0;
   width: 100%;
   display: flex;
-  padding-bottom: 2em;
+  padding-bottom: 3em;
   justify-content: center;
   z-index: 1;
   background-image: linear-gradient(#181717, transparent);
@@ -139,19 +139,34 @@
   font-size: 4em;
   margin-bottom: 0%;
   font-weight: 600;
+  text-align: center;
 }
 
 .homeSpecialList{
   font-size: 1.5em;
-}
-
-.homeSpecialList span{
-  color: #8B8B8B;
+  text-align: right;
+  flex-basis: 45%;
 }
 
 .homeButtonContainer{
   display: flex;
   margin-top: 1em;
+}
+
+.homeSpecialContainer{
+  display: flex;
+  justify-content: center;
+  column-gap: 6em;
+}
+
+.homeSlideshowContainer{
+  flex-basis: 50%;
+}
+
+.homeSlideshowImage{
+  border-radius: 1em;
+  width: 50%;
+  margin-top: 1.5em;
 }
 
 .homeButton{
@@ -365,13 +380,18 @@
 }
 
 .codeProjectsTextContainer{
-  flex-basis: 50%;
+  flex-basis: auto;
   margin-right: 2em;
+}
+
+.codeProjectsImageContainer{
 }
 
 .codeProjectsImages{
   margin-left: 1em;
-  max-width: 40em;
+  max-width: 100%;
+  height: auto;
+  flex-basis: 35%;
 }
 
 .codeList{
@@ -442,14 +462,32 @@
 /*-------------FOOTER-----------------*/
 
 .footerContainer{
+  display: flex;
   background-color: #222222;
   padding: 0.3em;
+  justify-content: center;
+  border-radius: 0.5em;
+}
+
+.footerContainer a{
+  text-decoration: none;
 }
 
 .footerText{
-  font-size: 14px;
+  font-size: 0.85em;
   font-weight: 500;
   text-align: center;
+  flex-basis: 20%;
+}
+
+.footerLink{
+  transition: color 0.2s ease-in-out;
+  font-size: 0.85em;
+}
+
+.footerLink:hover{
+  color: #3879cf;
+  cursor: pointer;
 }
 
 
@@ -464,6 +502,10 @@
 
   .homeTitle{
     font-size: 4.5em;
+  }
+
+  .homeSlideshowImage{
+    width: 70%;
   }
 
   .videoTitle{
@@ -500,6 +542,14 @@
     margin-bottom: 1.2em;
   }
 
+  .codeProjectsTextContainer{
+    flex-basis: 100%;
+    margin-right: 2em;
+  }
+
+  .footerText{
+    flex-basis: 30%;
+  }
 }
 
 @media screen and (max-width: 1000px){
@@ -536,6 +586,16 @@
 
   .videoWorkImageContainer{
     margin-bottom: 1em;
+  }
+
+  .codeProjectsContainer{
+    display: block;
+  }
+
+  .codeProjectsImages{
+    max-width: 70%;
+    margin: 0 auto;
+    display: block;
   }
 
 }
@@ -586,6 +646,23 @@
     font-size: 1.125em;
   }
 
+  .homeSpecialContainer{
+    display: block;
+  }
+
+  .homeSpecialList{
+    text-align: center;
+  }
+  
+.homeSlideshowContainer{
+  width: 100%;
+  }
+
+  .homeSlideshowImage{
+  display: block;
+  margin: 0 auto;
+  }
+
   .headerLogo{
     font-size: 1.5em;
   }
@@ -601,6 +678,27 @@
 
   .videoWorkTextContainer{
     transform: translate(-50%, -50%);
+  }
+
+  .footerContainer{
+    display: block;
+  }
+
+  .footerContactContainer{
+    display: flex;
+    justify-content: center;
+  }
+
+  .footerText{
+    flex-basis: 40%;
+  }
+
+  .footerLink{
+    font-size: 1em;
+  }
+
+  .footerContactContainer a{
+    text-decoration: none;
   }
 
 }
@@ -631,6 +729,10 @@
     display: block;
   }
 
+  .homeButtonRight{
+    margin-top: 1em;
+  }
+
   .homeAboutText{
     font-size: 1em;
   }
@@ -641,6 +743,10 @@
 
   .homeContactButtonContainer{
     max-width: 75%;
+  }
+
+  .homeSlideshowImage{
+    width: 100%;
   }
 
   .genH2{
@@ -670,6 +776,10 @@
 
   .videoWorkButtonContainer{
     margin-bottom: 0;
+  }
+
+  .codeProjectsImages{
+    max-width: 100%;
   }
 
   .codeEducationDiv{
@@ -708,6 +818,10 @@
   }
 
   .codeEducationTextDiv{
+    display: block;
+  }
+
+  .footerContactContainer{
     display: block;
   }
 

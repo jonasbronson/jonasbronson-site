@@ -39,7 +39,9 @@ const bigJava="JavaScript";
                                 things fun.
                             </p>
                         </div>
-                        <img src={GoalHorizontal} className="codeProjectsImages"/>
+                        <div className="codeProjectsImageContainer">
+                            <img src={GoalHorizontal} className="codeProjectsImages"/>
+                        </div>
                     </div>
                     <div className="codeProjectsContainer">
                         <div className="codeProjectsTextContainer">
@@ -97,14 +99,15 @@ const bigJava="JavaScript";
                                 <h3 className="genH3">Completed</h3>
                                 <ul style={{translate: "-37px"}}>
                                     <li className="genP codeList">Data Structures and Algorithms</li>
-                                    <li className="genP codeList">Object Oriented Design</li>
+                                    <li className="genP codeList">Logical Foundations of Programming</li>
                                 </ul>
                             </div>
                             <div>
                                 <h3 className="genH3">In Progress</h3>
                                 <ul style={{translate: "-37px"}}>
-                                    <li className="genP codeList">Software Architecture and Design</li>
+                                    <li className="genP codeList">Object Oriented Design</li>
                                     <li className="genP codeList">Database Systems</li>
+                                    <li className="genP codeList">Software Architecture and Design</li>
                                     <li className="genP codeList">Cryptography</li>
                                 </ul>
                             </div>
