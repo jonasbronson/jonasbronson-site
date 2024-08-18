@@ -2,7 +2,6 @@ import React from "react";
 import JS from "../assets/code/js.png";
 import CSharp from "../assets/code/cSharp.png";
 import CPlusPlus from "../assets/code/cPlusPlus.png";
-import GoalVertical from "../assets/code/goalkeeper-vertical.png"
 import GoalHorizontal from "../assets/code/goalkeeper-land.png"
 
 export default function Code(){
