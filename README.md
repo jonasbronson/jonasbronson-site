@@ -1,5 +1,5 @@
-# jonasbronson.com Site Update
+# jonasbronson.com
 
-Here I am making a big update to my site that will now contain both my coding portfolio as well as my video portfolio and freelancing.
+Here lays my website made with love with Vite and React.js as an update to my old website that only utilized HTML and CSS. This website was good practice for me to code in the React.js and Vite frameworks and get used to them a little bit more.
 
-Updates will be posted here, although it will take a while to migrate the video site and design the coding portfolio section.
+This website holds an about section for me, both my video and coding portfolios, projects, and a way to contact me if you need.
