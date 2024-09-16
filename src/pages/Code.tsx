@@ -30,7 +30,7 @@ const bigJava="JavaScript";
                 <h1 className="videoTitle"><span>Coding</span> Portfolio</h1>
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Projects</h2>
-                    <div className="codeProjectsContainer">
+                    {/*<div className="codeProjectsContainer">
                         <div className="codeProjectsTextContainer">
                             <h3 className="genH3">Goalkeeper</h3>
                             <p className="genP">My work-in-progress minimalist goal tracking app built using React Native and Expo.
@@ -40,6 +40,16 @@ const bigJava="JavaScript";
                         </div>
                         <div className="codeProjectsImageContainer">
                             <img src={GoalHorizontal} className="codeProjectsImages"/>
+                        </div>
+                    </div>*/}
+                    <div className="codeProjectsContainer">
+                        <div className="codeProjectsTextContainer">
+                            <h3 className="genH3">jonasbronson.com</h3>
+                            <p className="genP">My website you're viewing right now built from the ground up
+                                using React.js and Vite. My design skills and my passion to learn helped bring
+                                everything together for this website that shows off my accomplishments. You can view
+                                the source code <a href="https://github.com/jonasbronson/jonasbronson-site/tree/main" style={{textDecoration: "none", color: "#3879cf"}}>here</a>.
+                            </p>
                         </div>
                     </div>
                     <div className="codeProjectsContainer">
