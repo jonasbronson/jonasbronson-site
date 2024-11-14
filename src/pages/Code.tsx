@@ -2,6 +2,7 @@ import React from "react";
 import JS from "../assets/code/js.png";
 import CSharp from "../assets/code/cSharp.png";
 import CPlusPlus from "../assets/code/cPlusPlus.png";
+import FF from "../assets/code/fortunefinances.png";
 //import GoalHorizontal from "../assets/code/goalkeeper-land.png"
 
 export default function Code(){
@@ -30,18 +31,23 @@ const bigJava="JavaScript";
                 <h1 className="videoTitle"><span>Coding</span> Portfolio</h1>
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Projects</h2>
-                    {/*<div className="codeProjectsContainer">
+                    <div className="codeProjectsContainer">
                         <div className="codeProjectsTextContainer">
-                            <h3 className="genH3">Goalkeeper</h3>
-                            <p className="genP">My work-in-progress minimalist goal tracking app built using React Native and Expo.
-                                The app aims to have functionality to remind users of their goals, set new goals, and keep
-                                things fun.
-                            </p>
+                            <h3 className="genH3">Fortune Finances</h3>
+                            <div className="codeProjectsImageContainer">
+                                <p className="genP">Fortune Finances is a website with an AI fortune cookie that gives (not so good) financial advice. It was developed for the
+                                    Hack K-State 2024 hackathon and won <strong>Best Beginner Track</strong> award for being the best hack done by first-time hackathon attendees.
+                                    The frontend was made with Next.js and React, with Next.js being a new framework me and my team had never worked with before.
+                                    We used Auth0 for authentication, OpenAI's GPT4o-mini model and API for the AI, and Firebase to store user history.
+                                    The project was deployed with Vercel and is hosted at <a href="https://fortunefinances.biz" style={{textDecoration: "none", color: "#3879cf"}}>fortunefinances.biz</a>.
+                                    You can check out the source code <a href="https://github.com/ThisisJackRyan/FortuneFinances" style={{textDecoration: "none", color: "#3879cf"}}>here</a>.
+                                </p>
+                                <div>
+                                    <a href="https://fortunefinances.biz"><img src={FF} className="codeProjectsImages"/></a>
+                                </div>
+                            </div>
                         </div>
-                        <div className="codeProjectsImageContainer">
-                            <img src={GoalHorizontal} className="codeProjectsImages"/>
-                        </div>
-                    </div>*/}
+                    </div>
                     <div className="codeProjectsContainer">
                         <div className="codeProjectsTextContainer">
                             <h3 className="genH3">jonasbronson.com</h3>

@@ -381,17 +381,11 @@
 
 .codeProjectsTextContainer{
   flex-basis: auto;
-  margin-right: 2em;
 }
 
 .codeProjectsImageContainer{
-}
-
-.codeProjectsImages{
-  margin-left: 1em;
-  max-width: 100%;
-  height: auto;
-  flex-basis: 35%;
+  display: flex;
+  gap: 2em;
 }
 
 .codeList{
@@ -544,7 +538,16 @@
 
   .codeProjectsTextContainer{
     flex-basis: 100%;
-    margin-right: 2em;
+  }
+
+  .codeProjectsImageContainer{
+    display: block;
+  }
+
+  .codeProjectsImages{
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
   }
 
   .footerText{
@@ -589,12 +592,6 @@
   }
 
   .codeProjectsContainer{
-    display: block;
-  }
-
-  .codeProjectsImages{
-    max-width: 70%;
-    margin: 0 auto;
     display: block;
   }
 
