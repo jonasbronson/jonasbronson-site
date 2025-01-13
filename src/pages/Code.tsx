@@ -36,7 +36,7 @@ const bigJava="JavaScript";
                             <h3 className="genH3">Fortune Finances</h3>
                             <div className="codeProjectsImageContainer">
                                 <p className="genP">Fortune Finances is a website with an AI fortune cookie that gives (not so good) financial advice. It was developed for the
-                                    Hack K-State 2024 hackathon and won <strong>Best Beginner Track</strong> award for being the best hack done by first-time hackathon attendees.
+                                    Hack K-State 2024 hackathon and won the <strong>Best Beginner Track</strong> award for being the best hack done by first-time hackathon attendees.
                                     The frontend was made with Next.js and React, with Next.js being a new framework me and my team had never worked with before.
                                     We used Auth0 for authentication, OpenAI's GPT4o-mini model and API for the AI, and Firebase to store user history.
                                     The project was deployed with Vercel and is hosted at <a href="https://fortunefinances.biz" style={{textDecoration: "none", color: "#3879cf"}}>fortunefinances.biz</a>.
@@ -66,6 +66,23 @@ const bigJava="JavaScript";
                                 hash functions. See more on my <a href="https://github.com/jonasbronson?tab=repositories" style={{textDecoration: "none", color: "#3879cf"}}>GitHub</a>.
                             </p>
                         </div>
+                    </div>
+                </div>
+                <div style={{marginBottom: "15%"}}>
+                    <h2 className="genH2">My Experience</h2>
+                    <div className="codeExperienceDiv">
+                        <h3 className="genH3">Teaching Assistant</h3>
+                        <h4 className="">January 2025 - Current</h4>
+                        <p className="genP">
+                            A teaching assistant position for the CIS 400 Object Oriented Programming class at Kansas State University.
+                            In this position I help grade student assignments and also hold office hours to help students better understand
+                            material and help on assignments.
+                        </p>
+                        <h3 className="genH3">Software Engineer Internship</h3>
+                        <h4 className="">Starting May 2025</h4>
+                        <p className="genP">
+                            This summer I will be starting a software engineering internship with NorthPoint Development in Kansas City.
+                        </p>
                     </div>
                 </div>
                 <div style={{marginBottom: "15%"}}>
@@ -101,9 +118,9 @@ const bigJava="JavaScript";
                             <div className="codeTimelineDot codeComplete"/>
                             <div className="codeTimelineLine codeComplete"/>
                             <div className="codeTimelineDot codeComplete"/>
-                            <div className="codeTimelineLine codeTimelineLineHalf codeComplete"/>
-                            <div className="codeTimelineLine codeTimelineLineHalf"/>
-                            <div className="codeTimelineDot"/>
+                            <div className="codeTimelineLine  codeComplete"/>
+                            {/* <div className="codeTimelineLine codeTimelineLineHalf"/> */}
+                            <div className="codeTimelineDot codeComplete"/>
                             <div className="codeTimelineLine"/>
                             <div className="codeTimelineDot"/>
                             <div className="codeTimelineLine"/>
@@ -115,15 +132,16 @@ const bigJava="JavaScript";
                                 <ul style={{translate: "-37px"}}>
                                     <li className="genP codeList">Data Structures and Algorithms</li>
                                     <li className="genP codeList">Logical Foundations of Programming</li>
+                                    <li className="genP codeList">Object Oriented Design</li>
+                                    <li className="genP codeList">Database Systems</li>
                                 </ul>
                             </div>
                             <div>
                                 <h3 className="genH3">In Progress</h3>
                                 <ul style={{translate: "-37px"}}>
-                                    <li className="genP codeList">Object Oriented Design</li>
-                                    <li className="genP codeList">Database Systems</li>
                                     <li className="genP codeList">Software Architecture and Design</li>
                                     <li className="genP codeList">Cryptography</li>
+                                    <li className="genP codeList">Network Systems</li>
                                 </ul>
                             </div>
                         </div>

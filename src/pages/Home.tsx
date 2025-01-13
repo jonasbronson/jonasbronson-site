@@ -94,7 +94,7 @@ export default function Home(){
                     <h2 className="homeHeader">About Me</h2>
                     <div className="homeAboutDiv">
                         <img src={isLargeScreen ? ProfileNature : ProfileNaturePhone} className="homeAboutPic" />
-                        <p className="homeAboutText">Hi, I'm Jonas Bronson, a college student majoring in both computer science and cybersecurity at Kansas State
+                        <p className="homeAboutText genP">Hi, I'm Jonas Bronson, a college student majoring in both computer science and cybersecurity at Kansas State
                             University. I've always had a dual passion in both video production and anything computer related since
                             my middle school years. <br /> <br />
 

@@ -390,6 +390,7 @@
 
 .codeList{
   text-decoration: none;
+  margin-bottom: 5px;
   list-style: none;
 }
 
@@ -402,6 +403,11 @@
 
 .codeLanguagesContainer{
   
+}
+
+.codeExperienceH3{
+  font-size: 1.5em;
+  margin-bottom: 10px;
 }
 
 .codeLanguages{
@@ -683,6 +689,7 @@
 
   .footerContactContainer{
     display: flex;
+    gap: 3em;
     justify-content: center;
   }
 
