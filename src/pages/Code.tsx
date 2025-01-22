@@ -78,11 +78,6 @@ const bigJava="JavaScript";
                             In this position I help grade student assignments and also hold office hours to help students better understand
                             material and help on assignments.
                         </p>
-                        <h3 className="genH3">Software Engineer Internship</h3>
-                        <h4 className="">Starting May 2025</h4>
-                        <p className="genP">
-                            This summer I will be starting a software engineering internship with NorthPoint Development in Kansas City.
-                        </p>
                     </div>
                 </div>
                 <div style={{marginBottom: "15%"}}>
@@ -139,9 +134,8 @@ const bigJava="JavaScript";
                             <div>
                                 <h3 className="genH3">In Progress</h3>
                                 <ul style={{translate: "-37px"}}>
+                                    <li className="genP codeList">C Language Lab</li>
                                     <li className="genP codeList">Software Architecture and Design</li>
-                                    <li className="genP codeList">Cryptography</li>
-                                    <li className="genP codeList">Network Systems</li>
                                 </ul>
                             </div>
                         </div>

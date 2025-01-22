@@ -101,10 +101,11 @@ export default function Home(){
                             I took my first video production course at Shawnee Mission Northwest high school (SMNW) in 2019. During
                             my years there, I completed all of the video production courses and became an Executive Producer for the
                             advanced video production class' video program, KUGR. While in KUGR, I directed and produced videos, ran
-                            productions, live-streamed, and did jobs for the school district. In addition, I also do my own work for
-                            clients and personal projects. My video production work has won national awards in 2022 and 2023 from the
-                            Journalism Education Association (JEA). I currently work for Wildcat Watch at Kansas State University as
-                            a Student Organization Video Producer where I manage others, film and edit videos. <br /><br />
+                            productions, live-streamed, and did jobs for the school district. In addition, I also did my own freelance 
+                            work for clients and continue to work on personal projects. My video production work has won national awards 
+                            in 2022 and 2023 from the Journalism Education Association (JEA). I currently work as a undergraduate 
+                            teaching assistant at Kansas State University for the CIS 400 course. I help grade assignments and answer 
+                            questions for students in this position. <br /><br />
 
                             I have an extensive background in computer programming including cybersecurity and game design.
                             During my years in high school, I completed all of the computer science courses offered. Moreover, I took
