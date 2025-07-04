@@ -33,6 +33,17 @@ const bigJava="JavaScript";
                     <h2 className="genH2">My Projects</h2>
                     <div className="codeProjectsContainer">
                         <div className="codeProjectsTextContainer">
+                            <h3 className="genH3">The Note Distillery</h3>
+                            <p className="genP">A website co-developed with some friends of mine for the HackKU 2025 Hackathon. Built in 36 hours, this website brings note
+                                organization with the power of a built-in AI assistant powered by Google Gemini. The AI assistant can make flashcards, summarize notes, and
+                                answer questions about notes. Using the power of Gemini also allows for scanning handwritten notes and converting them to text. This project was
+                                built with React.js, Next.js, Google Cloud, and Firebase. The project was deployed with Vercel and is hosted at
+                                <a href="https://notedistillery.com" style={{textDecoration: "none", color: "#3879cf"}}> notedistillery.com</a>.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="codeProjectsContainer">
+                        <div className="codeProjectsTextContainer">
                             <h3 className="genH3">Fortune Finances</h3>
                             <div className="codeProjectsImageContainer">
                                 <p className="genP">Fortune Finances is a website with an AI fortune cookie that gives (not so good) financial advice. It was developed for the
@@ -55,15 +66,6 @@ const bigJava="JavaScript";
                                 using React.js and Vite. My design skills and my passion to learn helped bring
                                 everything together for this website that shows off my accomplishments. You can view
                                 the source code <a href="https://github.com/jonasbronson/jonasbronson-site/tree/main" style={{textDecoration: "none", color: "#3879cf"}}>here</a>.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="codeProjectsContainer">
-                        <div className="codeProjectsTextContainer">
-                            <h3 className="genH3">CIS 300 Projects</h3>
-                            <p className="genP">Projects using C# and the .NET framework. These projects use 
-                                algorithms and data structures and include sorting algorithms, path finders, and 
-                                hash functions. See more on my <a href="https://github.com/jonasbronson?tab=repositories" style={{textDecoration: "none", color: "#3879cf"}}>GitHub</a>.
                             </p>
                         </div>
                     </div>
@@ -103,6 +105,7 @@ const bigJava="JavaScript";
                             <li className="genH4 codeList">HTML + CSS</li>
                             <li className="genH4 codeList">Java</li>
                             <li className="genH4 codeList">SQL</li>
+                            <li className="genH4 codeList">C</li>
                         </ul>
                     </div>
                 </div>
@@ -114,9 +117,9 @@ const bigJava="JavaScript";
                             <div className="codeTimelineLine codeComplete"/>
                             <div className="codeTimelineDot codeComplete"/>
                             <div className="codeTimelineLine  codeComplete"/>
-                            {/* <div className="codeTimelineLine codeTimelineLineHalf"/> */}
                             <div className="codeTimelineDot codeComplete"/>
-                            <div className="codeTimelineLine"/>
+                            <div className="codeTimelineLine codeTimelineLineHalf codeComplete"/>
+                            <div className="codeTimelineLine codeTimelineLineHalf"/>
                             <div className="codeTimelineDot"/>
                             <div className="codeTimelineLine"/>
                             <div className="codeTimelineDot"/>
@@ -129,13 +132,15 @@ const bigJava="JavaScript";
                                     <li className="genP codeList">Logical Foundations of Programming</li>
                                     <li className="genP codeList">Object Oriented Design</li>
                                     <li className="genP codeList">Database Systems</li>
+                                    <li className="genP codeList">C Language Lab</li>
+                                    <li className="genP codeList">Software Architecture and Design</li>
                                 </ul>
                             </div>
                             <div>
                                 <h3 className="genH3">In Progress</h3>
                                 <ul style={{translate: "-37px"}}>
-                                    <li className="genP codeList">C Language Lab</li>
-                                    <li className="genP codeList">Software Architecture and Design</li>
+                                    <li className="genP codeList">Programming Languages</li>
+                                    <li className="genP codeList">Computer Architecture and Operations</li>
                                 </ul>
                             </div>
                         </div>

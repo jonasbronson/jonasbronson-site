@@ -53,7 +53,8 @@ export default function Home(){
                 <div style={{ marginBottom: "15%" }}>
                     <h2 className="homeSpecialHeader">I Specialize In</h2>
                     <div className="homeSpecialContainer">
-                            <h3 className="homeSpecialList"><span style={currentImageIndex === 1 ? {color: "#3879cf"} : {color: "#ffffff"}}>Software Development</span> <br />
+                            <h3 className="homeSpecialList">
+                                <span style={currentImageIndex === 1 ? {color: "#3879cf"} : {color: "#ffffff"}}>Software Development</span> <br />
                                 <span style={currentImageIndex === 1 ? {color: "#3879cf"} : {color: "#ffffff"}}>Web Development</span> <br />
                                 <span style={currentImageIndex === 2 ? {color: "#3879cf"} : {color: "#ffffff"}}>Graphic Design</span> <br />
                                 <span style={currentImageIndex === 0 ? {color: "#3879cf"} : {color: "#ffffff"}}>Video Editing</span> <br />
