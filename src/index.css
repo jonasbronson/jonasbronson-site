@@ -42,6 +42,7 @@
   justify-content: center;
   z-index: 1;
   background-image: linear-gradient(#181717, transparent);
+  pointer-events: none;
 }
 
 .header{
@@ -56,6 +57,7 @@
   column-gap: 6em;
   margin-top: 1em;
   align-items: center;
+  pointer-events: auto;
 }
 
 .headerLogo{

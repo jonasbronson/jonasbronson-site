@@ -1,9 +1,7 @@
 import React from "react";
 import JS from "../assets/code/js.png";
 import CSharp from "../assets/code/cSharp.png";
-import CPlusPlus from "../assets/code/cPlusPlus.png";
-import FF from "../assets/code/fortunefinances.png";
-//import GoalHorizontal from "../assets/code/goalkeeper-land.png"
+import Vue from "../assets/code/vue.png";
 
 export default function Code(){
 
@@ -53,28 +51,24 @@ const bigJava="JavaScript";
                                     The project was deployed with Vercel and is hosted at <a href="https://fortunefinances.biz" style={{textDecoration: "none", color: "#3879cf"}}>fortunefinances.biz</a>.
                                     You can check out the source code <a href="https://github.com/ThisisJackRyan/FortuneFinances" style={{textDecoration: "none", color: "#3879cf"}}>here</a>.
                                 </p>
-                                <div>
-                                    <a href="https://fortunefinances.biz"><img src={FF} className="codeProjectsImages"/></a>
-                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div className="codeProjectsContainer">
-                        <div className="codeProjectsTextContainer">
-                            <h3 className="genH3">jonasbronson.com</h3>
-                            <p className="genP">My website you're viewing right now built from the ground up
-                                using React.js and Vite. My design skills and my passion to learn helped bring
-                                everything together for this website that shows off my accomplishments. You can view
-                                the source code <a href="https://github.com/jonasbronson/jonasbronson-site/tree/main" style={{textDecoration: "none", color: "#3879cf"}}>here</a>.
-                            </p>
                         </div>
                     </div>
                 </div>
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Experience</h2>
                     <div className="codeExperienceDiv">
+                        <h3 className="genH3">Software Development Intern</h3>
+                        <h4>May 2025 - August 2025 <br /> NorthPoint Development | Kansas City, MO</h4>
+                        <p className="genP">
+                            In this role I worked on both internal and external tools. Notably, I shipped new features into production, 
+                            made UI more accessible and user-friendly, improved the company's security stance, and helped streamline processes 
+                            that were previously mundane and time consuming.
+                        </p>
+                    </div>
+                    <div className="codeExperienceDiv">
                         <h3 className="genH3">Teaching Assistant</h3>
-                        <h4 className="">January 2025 - Current</h4>
+                        <h4>January 2025 - Current <br /> Kansas State University | Manhattan, KS</h4>
                         <p className="genP">
                             A teaching assistant position for the CIS 400 Object Oriented Programming class at Kansas State University.
                             In this position I help grade student assignments and also hold office hours to help students better understand
@@ -83,15 +77,15 @@ const bigJava="JavaScript";
                     </div>
                 </div>
                 <div style={{marginBottom: "15%"}}>
-                    <h2 className="genH2">My Languages</h2>
+                    <h2 className="genH2">My Languages and Technologies</h2>
                     <div className="codeLanguagesDiv">
                         <div>
                             <img className="codeLanguages" src={JS}/>
                             <h4 className="genP codeMainLanguages">{isLargeScreen ? bigJava : smallJava}</h4>
                         </div>
                         <div>
-                            <img className="codeLanguages" src={CPlusPlus}/>
-                            <h4 className="genP codeMainLanguages">C++</h4>
+                            <img className="codeLanguages" src={Vue}/>
+                            <h4 className="genP codeMainLanguages">Vue</h4>
                         </div>
                         <div style={{marginRight: "0"}}>
                             <img className="codeLanguages" src={CSharp}/>
@@ -99,11 +93,12 @@ const bigJava="JavaScript";
                         </div>
                     </div>
                     <div>
-                        <h3 className="genH3">Plus some experience in:</h3>
+                        <h3 className="genH3">Plus some recent experience in:</h3>
                         <ul style={{translate: "-37px"}}>
-                            <li className="genH4 codeList">Python</li>
+                            <li className="genH4 codeList">Google Cloud Project</li>
                             <li className="genH4 codeList">HTML + CSS</li>
-                            <li className="genH4 codeList">Java</li>
+                            <li className="genH4 codeList">React.js</li>
+                            <li className="genH4 codeList">React Native</li>
                             <li className="genH4 codeList">SQL</li>
                             <li className="genH4 codeList">C</li>
                         </ul>

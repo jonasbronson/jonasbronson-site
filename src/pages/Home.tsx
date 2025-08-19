@@ -40,7 +40,7 @@ export default function Home(){
     const images = [FilmingSlideshow, CodeSlideshow, GoalkeeperSlideshow];
 
     const currentImage = images[currentImageIndex];
-
+    
 
     return (
         <>
