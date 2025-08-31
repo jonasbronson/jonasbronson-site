@@ -95,7 +95,7 @@ const bigJava="JavaScript";
                     <div>
                         <h3 className="genH3">Plus some recent experience in:</h3>
                         <ul style={{translate: "-37px"}}>
-                            <li className="genH4 codeList">Google Cloud Project</li>
+                            <li className="genH4 codeList">Google Cloud Platform</li>
                             <li className="genH4 codeList">HTML + CSS</li>
                             <li className="genH4 codeList">React.js</li>
                             <li className="genH4 codeList">React Native</li>
