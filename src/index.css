@@ -387,7 +387,7 @@
 
 .codeProjectsImageContainer{
   display: flex;
-  gap: 2em;
+  gap: 0.5em;
 }
 
 .codeList{
@@ -405,6 +405,12 @@
 
 .codeLanguagesContainer{
   
+}
+
+.codingProjectsDiv{
+  display: block;
+  flex-wrap: nowrap;
+  column-gap: 1em;
 }
 
 .codeExperienceH3{

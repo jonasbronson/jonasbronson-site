@@ -31,6 +31,17 @@ const bigJava="JavaScript";
                     <h2 className="genH2">My Projects</h2>
                     <div className="codeProjectsContainer">
                         <div className="codeProjectsTextContainer">
+                            <h3 className="genH3">Git Polish</h3>
+                                <p className="genP"> A website and CLI tool created to help programmers create readme files for their GitHub
+                                    repositories quickly and easily for the HackCats 2025 Hackathon. The application utilizes Gemini AI and Google Cloud Platform
+                                    to perform analysis on repositories to create accurate readme files fast. The app can also create descriptions for repositories
+                                    as well as a checklist to make it look more professional. It was created with React.js, Next.js, Firebase Auth, and Google Cloud Platform.
+                                    The project was deployed with Vercel and is hosted <a href="https://git-polish.vercel.app/" style={{textDecoration: "none", color: "#3879cf"}}>here</a>.
+                                </p>
+                        </div>
+                    </div>
+                    <div className="codeProjectsContainer">
+                        <div className="codeProjectsTextContainer">
                             <h3 className="genH3">The Note Distillery</h3>
                             <p className="genP">A website co-developed with some friends of mine for the HackKU 2025 Hackathon. Built in 36 hours, this website brings note
                                 organization with the power of a built-in AI assistant powered by Google Gemini. The AI assistant can make flashcards, summarize notes, and
@@ -38,20 +49,6 @@ const bigJava="JavaScript";
                                 built with React.js, Next.js, Google Cloud, and Firebase. The project was deployed with Vercel and is hosted at
                                 <a href="https://notedistillery.com" style={{textDecoration: "none", color: "#3879cf"}}> notedistillery.com</a>.
                             </p>
-                        </div>
-                    </div>
-                    <div className="codeProjectsContainer">
-                        <div className="codeProjectsTextContainer">
-                            <h3 className="genH3">Fortune Finances</h3>
-                            <div className="codeProjectsImageContainer">
-                                <p className="genP">Fortune Finances is a website with an AI fortune cookie that gives (not so good) financial advice. It was developed for the
-                                    Hack K-State 2024 hackathon and won the <strong>Best Beginner Track</strong> award for being the best hack done by first-time hackathon attendees.
-                                    The frontend was made with Next.js and React, with Next.js being a new framework me and my team had never worked with before.
-                                    We used Auth0 for authentication, OpenAI's GPT4o-mini model and API for the AI, and Firebase to store user history.
-                                    The project was deployed with Vercel and is hosted at <a href="https://fortunefinances.biz" style={{textDecoration: "none", color: "#3879cf"}}>fortunefinances.biz</a>.
-                                    You can check out the source code <a href="https://github.com/ThisisJackRyan/FortuneFinances" style={{textDecoration: "none", color: "#3879cf"}}>here</a>.
-                                </p>
-                            </div>
                         </div>
                     </div>
                 </div>
