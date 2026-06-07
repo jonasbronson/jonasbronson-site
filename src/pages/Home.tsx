@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import SmoothImage from "../components/SmoothImage";
 import FrontPic from "../assets/front.png";
 import ProfileNature from "../assets/profileNature.jpg";
 import ProfileNaturePhone from "../assets/profileNaturePhone.png";
@@ -46,7 +47,7 @@ export default function Home(){
         <>
             <div className="genMargins" style={{marginTop: "4em"}}>
                 <div className="homeFront">
-                    <img src={FrontPic} className="homeFrontPic"/>
+                    <SmoothImage src={FrontPic} className="homeFrontPic" ratio={1} alt="Jonas Bronson" />
                     <h1 className="homeTitle">Hi, I'm <span>Jonas</span>.</h1>
                     <h3 className="homeSubTitle">Computer Science/Cybersecurity Student<br /><br />Video Producer</h3>
                 </div>
@@ -61,9 +62,11 @@ export default function Home(){
                                 <span style={currentImageIndex === 0 ? {color: "#3879cf"} : {color: "#ffffff"}}>Videography</span> <br />
                             </h3>
                         <div className="homeSlideshowContainer">
-                            <img
+                            <SmoothImage
                                 src={currentImage}
                                 className="homeSlideshowImage"
+                                ratio={1}
+                                alt="Jonas at work"
                             />
                         </div>
                     </div>
@@ -73,7 +76,7 @@ export default function Home(){
                     <div className="homeButtonContainer">
                         <Link to="/Video" onClick={() => window.scrollTo(0, 0)}>
                             <div className="homeButton homeButtonLeft">
-                                <img src={VideoPic} className="homeButtonPic" />
+                                <SmoothImage src={VideoPic} className="homeButtonPic" ratio={1500 / 2245} alt="Video portfolio" />
                                 <div className="homeButtonTextContainer">
                                     <h4 className="genH4 homeButtonText">Video</h4>
                                     <p className="genP homeButtonText">View my video production work and accolades.</p>
@@ -82,7 +85,7 @@ export default function Home(){
                         </Link>
                         <Link to="/Code" onClick={() => window.scrollTo(0, 0)}>
                             <div className="homeButton homeButtonRight">
-                                <img src={CodePic} className="homeButtonPic" />
+                                <SmoothImage src={CodePic} className="homeButtonPic" ratio={1500 / 2245} alt="Dev portfolio" />
                                 <div className="homeButtonTextContainer">
                                     <h4 className="genH4 homeButtonText">Dev</h4>
                                     <p className="genP homeButtonText">My coding projects and languages.</p>
@@ -94,7 +97,12 @@ export default function Home(){
                 <div style={{ marginBottom: "15%" }}>
                     <h2 className="homeHeader">About Me</h2>
                     <div className="homeAboutDiv">
-                        <img src={isLargeScreen ? ProfileNature : ProfileNaturePhone} className="homeAboutPic" />
+                        <SmoothImage
+                            src={isLargeScreen ? ProfileNature : ProfileNaturePhone}
+                            className="homeAboutPic"
+                            ratio={isLargeScreen ? 1080 / 1440 : 1080 / 600}
+                            alt="Jonas in nature"
+                        />
                         <p className="homeAboutText genP">Hi, I'm Jonas Bronson, a college student majoring in both computer science and cybersecurity at Kansas State
                             University. I've always had a dual passion in both video production and anything computer related since
                             my middle school years. <br /> <br />

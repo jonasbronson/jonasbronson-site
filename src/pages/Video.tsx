@@ -1,4 +1,5 @@
 import React from "react";
+import SmoothImage from "../components/SmoothImage";
 import Accolades from "../assets/video/accolades.png";
 import AccoladesPhone from "../assets/video/accoladesPhone.png";
 import Wedding from "../assets/video/work-5.png";
@@ -30,7 +31,7 @@ export default function Video(){
                     <h2 className="genH2">My Work</h2>
                     <div className="videoWorkDiv">
                         <div className="videoWorkImageContainer">
-                            <a href="https://youtu.be/0tVs0_6oVAw?si=aui6P3SJfdg6AGP-"><img src={Wedding} className="videoWorkImages" />
+                            <a href="https://youtu.be/0tVs0_6oVAw?si=aui6P3SJfdg6AGP-"><SmoothImage src={Wedding} className="videoWorkImages" ratio={1500 / 2245} alt="Wedding Film" />
                             <div className="videoWorkTextContainer">
                                 <h4 className="genH4 videoWorkText" >Wedding Film</h4>
                                 <p className="genP videoWorkText" >My first wedding film made from scratch with most shots and editing by me.</p>
@@ -38,7 +39,7 @@ export default function Video(){
                             </a>
                         </div>
                         <div className="videoWorkImageContainer">
-                            <a href="https://youtu.be/C_GCeATJakc?si=lx54H0HqpAmJDBeO"><img src={Highlight} className="videoWorkImages" />
+                            <a href="https://youtu.be/C_GCeATJakc?si=lx54H0HqpAmJDBeO"><SmoothImage src={Highlight} className="videoWorkImages" ratio={1500 / 2245} alt="Athletics Hype" />
                             <div className="videoWorkTextContainer">
                                 <h4 className="genH4 videoWorkText" >Athletics Hype</h4>
                                 <p className="genP videoWorkText" >Hype video made for Shawnee Mission Northwest High School.</p>
@@ -46,7 +47,7 @@ export default function Video(){
                             </a>
                         </div>
                         <div className="videoWorkImageContainer">
-                            <a href="https://youtu.be/qgE-RPuwqjo?si=nxBXy9G45r_Z0XeA"><img src={Contest} className="videoWorkImages" />
+                            <a href="https://youtu.be/qgE-RPuwqjo?si=nxBXy9G45r_Z0XeA"><SmoothImage src={Contest} className="videoWorkImages" ratio={1500 / 2245} alt="JEA Competition" />
                             <div className="videoWorkTextContainer">
                                 <h4 className="genH4 videoWorkText" >JEA Competition</h4>
                                 <p className="genP videoWorkText" >Edit that won a superior medal at JEA San Francisco 2023.</p>
@@ -76,7 +77,12 @@ export default function Video(){
                             requirements, a folder of footage, and time constraints. <br /><br />Award given at JEA San Francisco 
                             Spring 2023 Convention. <br /><br />Watch the video <a href="https://youtu.be/qgE-RPuwqjo" className="videoAccoladesLink">here</a>.</p>
                         </div>
-                        <img src={isLargeScreen ? Accolades : AccoladesPhone} className="videoAccoladesPic"/>
+                        <SmoothImage
+                            src={isLargeScreen ? Accolades : AccoladesPhone}
+                            className="videoAccoladesPic"
+                            ratio={isLargeScreen ? 1500 / 2245 : 1}
+                            alt="Award accolades"
+                        />
                         
 
                     </div>

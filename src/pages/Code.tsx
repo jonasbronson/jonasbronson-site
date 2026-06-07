@@ -1,4 +1,5 @@
 import React from "react";
+import SmoothImage from "../components/SmoothImage";
 import JS from "../assets/code/js.png";
 import CSharp from "../assets/code/cSharp.png";
 import Vue from "../assets/code/vue.png";
@@ -77,15 +78,15 @@ const bigJava="JavaScript";
                     <h2 className="genH2">My Languages and Technologies</h2>
                     <div className="codeLanguagesDiv">
                         <div>
-                            <img className="codeLanguages" src={JS}/>
+                            <SmoothImage className="codeLanguages" src={JS} ratio={1} alt="JavaScript" />
                             <h4 className="genP codeMainLanguages">{isLargeScreen ? bigJava : smallJava}</h4>
                         </div>
                         <div>
-                            <img className="codeLanguages" src={Vue}/>
+                            <SmoothImage className="codeLanguages" src={Vue} ratio={1} alt="Vue" />
                             <h4 className="genP codeMainLanguages">Vue</h4>
                         </div>
                         <div style={{marginRight: "0"}}>
-                            <img className="codeLanguages" src={CSharp}/>
+                            <SmoothImage className="codeLanguages" src={CSharp} ratio={711 / 800} alt="C#" />
                             <h4 className="genP codeMainLanguages">C#</h4>
                         </div>
                     </div>
