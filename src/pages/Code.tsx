@@ -56,7 +56,7 @@ const bigJava="JavaScript";
                 <div style={{marginBottom: "15%"}}>
                     <h2 className="genH2">My Experience</h2>
                     <div className="codeExperienceDiv">
-                        <h3 className="genH3">Software Development Intern</h3>
+                        <h3 className="genH3">Software Developer Intern</h3>
                         <h4>May 2025 - August 2025 <br /> NorthPoint Development | Kansas City, MO</h4>
                         <p className="genP">
                             In this role I worked on both internal and external tools. Notably, I shipped new features into production, 
@@ -111,9 +111,8 @@ const bigJava="JavaScript";
                             <div className="codeTimelineDot codeComplete"/>
                             <div className="codeTimelineLine  codeComplete"/>
                             <div className="codeTimelineDot codeComplete"/>
-                            <div className="codeTimelineLine codeTimelineLineHalf codeComplete"/>
-                            <div className="codeTimelineLine codeTimelineLineHalf"/>
-                            <div className="codeTimelineDot"/>
+                            <div className="codeTimelineLine codeComplete"/>
+                            <div className="codeTimelineDot codeComplete"/>
                             <div className="codeTimelineLine"/>
                             <div className="codeTimelineDot"/>
                         </div>
@@ -127,13 +126,17 @@ const bigJava="JavaScript";
                                     <li className="genP codeList">Database Systems</li>
                                     <li className="genP codeList">C Language Lab</li>
                                     <li className="genP codeList">Software Architecture and Design</li>
+                                    <li className="genP codeList">Programming Languages</li>
+                                    <li className="genP codeList">Computer Architecture and Operations</li>
+                                    <li className="genP codeList">Fundamentals of Cryptography</li>
+                                    <li className="genP codeList">Algorithm Analysis</li>
                                 </ul>
                             </div>
                             <div>
                                 <h3 className="genH3">In Progress</h3>
                                 <ul style={{translate: "-37px"}}>
-                                    <li className="genP codeList">Programming Languages</li>
-                                    <li className="genP codeList">Computer Architecture and Operations</li>
+                                    <li className="genP codeList">Computer Information Security</li>
+                                    <li className="genP codeList">Network Programming</li>
                                 </ul>
                             </div>
                         </div>

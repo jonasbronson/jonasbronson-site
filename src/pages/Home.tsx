@@ -74,21 +74,21 @@ export default function Home(){
                 <div style={{ marginBottom: "15%" }}>
                     <h2 className="homeHeader">My Portfolios</h2>
                     <div className="homeButtonContainer">
-                        <Link to="/Video" onClick={() => window.scrollTo(0, 0)}>
-                            <div className="homeButton homeButtonLeft">
-                                <SmoothImage src={VideoPic} className="homeButtonPic" ratio={1500 / 2245} alt="Video portfolio" />
-                                <div className="homeButtonTextContainer">
-                                    <h4 className="genH4 homeButtonText">Video</h4>
-                                    <p className="genP homeButtonText">View my video production work and accolades.</p>
-                                </div>
-                            </div>
-                        </Link>
                         <Link to="/Code" onClick={() => window.scrollTo(0, 0)}>
-                            <div className="homeButton homeButtonRight">
+                            <div className="homeButton homeButtonLeft">
                                 <SmoothImage src={CodePic} className="homeButtonPic" ratio={1500 / 2245} alt="Dev portfolio" />
                                 <div className="homeButtonTextContainer">
                                     <h4 className="genH4 homeButtonText">Dev</h4>
                                     <p className="genP homeButtonText">My coding projects and languages.</p>
+                                </div>
+                            </div>
+                        </Link>
+                        <Link to="/Video" onClick={() => window.scrollTo(0, 0)}>
+                            <div className="homeButton homeButtonRight">
+                                <SmoothImage src={VideoPic} className="homeButtonPic" ratio={1500 / 2245} alt="Video portfolio" />
+                                <div className="homeButtonTextContainer">
+                                    <h4 className="genH4 homeButtonText">Video</h4>
+                                    <p className="genP homeButtonText">View my video production work and accolades.</p>
                                 </div>
                             </div>
                         </Link>

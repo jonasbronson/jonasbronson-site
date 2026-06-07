@@ -28,8 +28,8 @@ export default function Header(){
                 <div className="header">
                     <Link to="" className="headerLogo" onClick={() => window.scrollTo(0, 0)}>Jonas<span>.</span></Link>
                     <div className="headerLinksContainer">
-                        <Link to="/Video" className="headerLinks" onClick={() => window.scrollTo(0, 0)}>{isNotPhone ? bigVideo : smallVideo}</Link>
                         <Link to="/Code" className="headerLinks" onClick={() => window.scrollTo(0, 0)}>{isNotPhone ? bigCode : smallCode}</Link>
+                        <Link to="/Video" className="headerLinks" onClick={() => window.scrollTo(0, 0)}>{isNotPhone ? bigVideo : smallVideo}</Link>
                     </div>
                 </div>
             </div>
