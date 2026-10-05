@@ -1,6 +1,6 @@
 import React from "react";
 import SmoothImage from "../components/SmoothImage";
-import JS from "../assets/code/js.png";
+import TS from "../assets/code/ts.png";
 import CSharp from "../assets/code/cSharp.png";
 import Vue from "../assets/code/vue.png";
 
@@ -21,8 +21,8 @@ export default function Code(){
     }, []);
 
 
-const smallJava="JS";
-const bigJava="JavaScript";
+const smallTypeScript="TS";
+const bigTypeScript="TypeScript";
 
     return(
         <>
@@ -57,7 +57,7 @@ const bigJava="JavaScript";
                     <h2 className="genH2">My Experience</h2>
                     <div className="codeExperienceDiv">
                         <h3 className="genH3">Software Developer Intern</h3>
-                        <h4>May 2025 - August 2025 <br /> NorthPoint Development | Kansas City, MO</h4>
+                        <h4>May 2025 - August 2025 <br/> May 2026 - Currently working remotely part-time <br/> NorthPoint Development | Kansas City, MO</h4>
                         <p className="genP">
                             In this role I worked on both internal and external tools. Notably, I shipped new features into production, 
                             made UI more accessible and user-friendly, improved the company's security stance, and helped streamline processes 
@@ -66,7 +66,7 @@ const bigJava="JavaScript";
                     </div>
                     <div className="codeExperienceDiv">
                         <h3 className="genH3">Teaching Assistant</h3>
-                        <h4>January 2025 - Current <br /> Kansas State University | Manhattan, KS</h4>
+                        <h4>January 2025 - May 2026 <br /> Kansas State University | Manhattan, KS</h4>
                         <p className="genP">
                             A teaching assistant position for the CIS 400 Object Oriented Programming class at Kansas State University.
                             In this position I help grade student assignments and also hold office hours to help students better understand
@@ -78,8 +78,8 @@ const bigJava="JavaScript";
                     <h2 className="genH2">My Languages and Technologies</h2>
                     <div className="codeLanguagesDiv">
                         <div>
-                            <SmoothImage className="codeLanguages" src={JS} ratio={1} alt="JavaScript" />
-                            <h4 className="genP codeMainLanguages">{isLargeScreen ? bigJava : smallJava}</h4>
+                            <SmoothImage className="codeLanguages" src={TS} ratio={1} alt="TypeScript" />
+                            <h4 className="genP codeMainLanguages">{isLargeScreen ? bigTypeScript : smallTypeScript}</h4>
                         </div>
                         <div>
                             <SmoothImage className="codeLanguages" src={Vue} ratio={1} alt="Vue" />
@@ -96,7 +96,7 @@ const bigJava="JavaScript";
                             <li className="genH4 codeList">Google Cloud Platform</li>
                             <li className="genH4 codeList">HTML + CSS</li>
                             <li className="genH4 codeList">React.js</li>
-                            <li className="genH4 codeList">React Native</li>
+                            <li className="genH4 codeList">Flutter/Dart</li>
                             <li className="genH4 codeList">SQL</li>
                             <li className="genH4 codeList">C</li>
                         </ul>
